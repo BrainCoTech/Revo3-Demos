@@ -734,5 +734,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-37.mp4?v=real-to-sim-1",
     "poster": "assets/posters/demo-37.jpg"
+  },
+  {
+    "id": "demo-38",
+    "path": "revosim-demo-60fps.mp4",
+    "category": "触觉",
+    "duration": 18.95,
+    "size": 3387950,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 2560,
+    "height": 1600,
+    "title": {
+      "zh": "RevoSim 双手多模态触觉仿真",
+      "en": "RevoSim bimanual multimodal tactile simulation"
+    },
+    "caption": {
+      "zh": "球体、立方体和多面体与仿真双手接触，同步展示指尖视触觉图像、marker displacement、深度、六维力／力矩与全手压阻响应。",
+      "en": "A sphere, cube and polyhedron contact simulated hands, with synchronized fingertip tactile images, marker displacement, depth, six-axis force/torque and whole-hand piezoresistive responses."
+    },
+    "tag": {
+      "zh": "仿真 · 多模态触觉",
+      "en": "Simulation · multimodal touch"
+    },
+    "src": "assets/videos/demo-38.mp4?v=revosim-tactile-1",
+    "poster": "assets/posters/demo-38.jpg"
   }
 ];

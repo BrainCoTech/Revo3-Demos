@@ -157,3 +157,26 @@ a.ecosystem-node:hover{border-color:#4d8997;background:#eff7f7}
 .footer-copy{text-align:center}
 .footer-copy .curator-credit{margin-top:5px;font-size:13px}
 @media(max-width:600px){.footer-copy{order:3;flex-basis:100%;text-align:left}}
+
+/* RevoTac: shared tactile conventions above two parallel data sources. */
+.tactile-lane{align-items:start}
+.tactile-lane>.lane-label{padding-top:16px}
+.revotac-diagram{min-width:0;padding:20px;border:1px solid #bdd7da;border-radius:12px;background:#edf6f6}
+.revotac-heading{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:16px}
+.revotac-heading h4{margin:0;font:400 28px/1.2 Georgia,"Songti SC",serif;letter-spacing:-.025em}
+.revotac-heading>span{font-size:12px;color:#4d7989}
+.tactile-convention,.tactile-source{padding:16px;border:1px solid var(--line);border-radius:9px;background:#f8fafb;min-width:0}
+.revotac-diagram h5{font-size:15px;font-weight:600;line-height:1.4;margin:0 0 12px}
+.tactile-modalities{display:grid;grid-template-columns:1.25fr 1fr;gap:12px}
+.tactile-sensor{min-width:0;padding:12px;border:1px solid #d4e3e8;border-radius:7px;background:#fff}
+.tactile-sensor h6{font-size:12px;font-weight:500;color:var(--muted);line-height:1.5;margin:0 0 10px}
+.tactile-chips,.tactile-data-list{list-style:none;padding:0;margin:0;display:grid;gap:7px}
+.tactile-chips{grid-template-columns:repeat(2,minmax(0,1fr))}
+.tactile-chips li,.tactile-data-list li{display:flex;align-items:center;justify-content:center;text-align:center;min-width:0;min-height:35px;padding:7px 8px;border:1px solid #d4e3e8;border-radius:5px;background:#fff;font-size:12px;line-height:1.4}
+.tactile-chips li{background:#f3f8f9;color:#2a6470}
+.pressure-chips{grid-template-columns:1fr}
+.tactile-source-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.tactile-source{display:flex;flex-direction:column}
+.tactile-data-list{flex:1;grid-auto-rows:1fr}
+@media(max-width:1000px){.tactile-modalities{grid-template-columns:1fr}.pressure-chips{grid-template-columns:1fr 1fr}.revotac-heading{align-items:start;flex-direction:column;gap:6px}}
+@media(max-width:600px){.revotac-diagram{padding:14px}.tactile-source-grid{grid-template-columns:1fr}.tactile-convention,.tactile-source{padding:12px}.tactile-lane>.lane-label{padding-top:0}}

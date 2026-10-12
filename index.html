@@ -5,13 +5,13 @@
 <title>Revo3 — Demo Collection</title>
 <meta name="description" content="Revo3 灵巧手演示集合：遥操作、强化学习、模仿学习、触觉、钢琴演奏、抓取生成与第一视角数据处理。">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2310191e'/%3E%3Ctext x='7' y='24' font-size='25' font-family='Georgia' fill='white'%3ER%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=curator-credit-1"><script src="catalog.js?v=real-to-sim-1" defer></script><script src="app.js?v=real-to-sim-1" defer></script>
+<link rel="stylesheet" href="styles.css?v=revotac-infra-1"><script src="catalog.js?v=revosim-tactile-1" defer></script><script src="app.js?v=revosim-tactile-1" defer></script>
 </head>
 <body>
 <a class="skip" href="#collection" data-zh="跳至演示集合" data-en="Skip to demos">跳至演示集合</a>
 <header class="masthead" id="top">
  <nav class="wrap topnav"><a class="wordmark" href="#top">Revo3<span>.</span></a><div class="nav-right"><a href="https://davidlxu.github.io/RevoSim-web/" target="_blank" rel="noopener">RevoSim ↗</a><div class="languages" aria-label="Language"><button type="button" data-lang="zh" aria-pressed="true">中文</button><span>/</span><button type="button" data-lang="en" aria-pressed="false">EN</button></div></div></nav>
- <div class="wrap intro"><div><p class="eyebrow">BRAINCO · DEXTEROUS MANIPULATION</p><h1>Revo3 <em>in action.</em></h1><p class="intro-copy" data-zh="从人手动作到机器人操作。探索灵巧手的学习、控制与触觉。" data-en="From human motion to robot manipulation. Explore dexterous learning, control and touch.">从人手动作到机器人操作。探索灵巧手的学习、控制与触觉。</p><p class="curator-credit intro-credit"><span data-zh="策划整理：" data-en="Curated by ">策划整理：</span><a href="https://davidlxu.github.io/" target="_blank" rel="noopener">Lixin Xu <span aria-hidden="true">↗</span></a></p></div><div class="index-mark"><strong>28</strong><span data-zh="段演示 / 10 个方向" data-en="DEMOS / 10 DIRECTIONS">段演示 / 10 个方向</span></div></div>
+ <div class="wrap intro"><div><p class="eyebrow">BRAINCO · DEXTEROUS MANIPULATION</p><h1>Revo3 <em>in action.</em></h1><p class="intro-copy" data-zh="从人手动作到机器人操作。探索灵巧手的学习、控制与触觉。" data-en="From human motion to robot manipulation. Explore dexterous learning, control and touch.">从人手动作到机器人操作。探索灵巧手的学习、控制与触觉。</p><p class="curator-credit intro-credit"><span data-zh="策划整理：" data-en="Curated by ">策划整理：</span><a href="https://davidlxu.github.io/" target="_blank" rel="noopener">Lixin Xu <span aria-hidden="true">↗</span></a></p></div><div class="index-mark"><strong>29</strong><span data-zh="段演示 / 10 个方向" data-en="DEMOS / 10 DIRECTIONS">段演示 / 10 个方向</span></div></div>
 </header>
 <section class="wrap ecosystem" id="ecosystem" aria-labelledby="ecosystem-title">
  <div class="ecosystem-heading"><div><p class="eyebrow">THE REVO3 ECOSYSTEM</p><h2 id="ecosystem-title" data-zh="从仿真到真机" data-en="From simulation to real robots">从仿真到真机</h2></div></div>
@@ -99,6 +99,28 @@
    </div>
   </div>
  </div>
+  </div>
+ </details>
+ <details class="infra-disclosure" id="tactile-infra">
+  <summary><span data-zh="触觉基础设施" data-en="Tactile infra">触觉基础设施</span></summary>
+  <div class="infra-content">
+   <div class="ecosystem-lane tactile-lane">
+    <div class="lane-label"><span class="lane-index">05</span><h3 data-zh="触觉基础设施" data-en="Tactile infra">触觉基础设施</h3><p data-zh="触觉数据格式与来源" data-en="Tactile data conventions &amp; sources">触觉数据格式与来源</p></div>
+    <section class="revotac-diagram" aria-labelledby="revotac-heading">
+     <div class="revotac-heading"><h4 id="revotac-heading">RevoTac</h4><span data-zh="仿真数据 + 真机数据" data-en="Simulation + real-world data">仿真数据 + 真机数据</span></div>
+     <article class="tactile-convention">
+      <h5 data-zh="触觉数据格式" data-en="Tactile data convention">触觉数据格式</h5>
+      <div class="tactile-modalities">
+       <section class="tactile-sensor"><h6 data-zh="视触觉 · 四种模态" data-en="Visuotactile · four modalities">视触觉 · 四种模态</h6><ul class="tactile-chips"><li>RGB</li><li>Depth</li><li>Marker displacement</li><li data-zh="六维力／力矩" data-en="6D force / torque">六维力／力矩</li></ul></section>
+       <section class="tactile-sensor"><h6 data-zh="全掌压阻触觉" data-en="Whole-hand piezoresistive touch">全掌压阻触觉</h6><ul class="tactile-chips pressure-chips"><li data-zh="法向力" data-en="Normal force">法向力</li><li data-zh="空间分布图" data-en="Spatial distribution map">空间分布图</li></ul></section>
+      </div>
+     </article>
+     <div class="tactile-source-grid">
+      <article class="tactile-source"><h5 data-zh="仿真数据" data-en="Simulation data">仿真数据</h5><ul class="tactile-data-list"><li data-zh="基于优化的数据生成" data-en="Optimization-based generation">基于优化的数据生成</li><li data-zh="RL rollout 数据" data-en="RL rollouts">RL rollout 数据</li><li data-zh="遥操生成的抓取数据" data-en="Teleoperated grasps">遥操生成的抓取数据</li><li data-zh="GPT 直接生成的数据" data-en="GPT-generated data">GPT 直接生成的数据</li></ul></article>
+      <article class="tactile-source"><h5 data-zh="真机数据" data-en="Real-world data">真机数据</h5><ul class="tactile-data-list"><li data-zh="真机遥操数据" data-en="Real-robot teleoperation">真机遥操数据</li><li data-zh="Policy 部署 rollout 数据" data-en="Deployed policy rollouts">Policy 部署 rollout 数据</li><li data-zh="人在闭环的干预数据" data-en="Human-in-the-loop interventions">人在闭环的干预数据</li></ul></article>
+     </div>
+    </section>
+   </div>
   </div>
  </details>
 </section>
