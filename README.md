@@ -11,7 +11,7 @@
 
 说明根据素材中的可见动作与文字编写。网站分为 7 类，钢琴演奏单独分类（不移动原素材）；caption 标明运动学轨迹优化与仿真性质。抛接球视频标注为训练过程，包含掉球与重置，不将其描述为成熟技能。
 
-公开网站：https://davidlxu.github.io/Revo3-Demos/
+公开网站：https://braincotech.github.io/Revo3-Demos/
 
 GitHub Pages 从 `main` 分支根目录发布。更新网页或 `assets/` 后提交并推送即可部署。仓库只收录网站及处理后的媒体；原始素材与本地构建缓存通过 `.gitignore` 排除。
 
