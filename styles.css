@@ -178,3 +178,5 @@ a.ecosystem-node:hover{border-color:#4d8997;background:#eff7f7}
 @media(max-width:600px){.revotac-diagram{padding:14px}.tactile-source-grid{grid-template-columns:1fr}.tactile-convention,.tactile-source{padding:12px}.tactile-lane>.lane-label{padding-top:0}}
 
 @media(max-width:600px){.revotac-heading h4{font-size:28px}}
+
+.visitor-count{margin-top:5px;font-variant-numeric:tabular-nums}
