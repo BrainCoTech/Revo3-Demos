@@ -809,5 +809,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-40.mp4?v=cats-cradle-1",
     "poster": "assets/posters/demo-40.jpg"
+  },
+  {
+    "id": "demo-41",
+    "path": "tray_lerobot.mp4",
+    "category": "触觉",
+    "duration": 14.166667,
+    "size": 2000799,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1728,
+    "height": 1080,
+    "title": {
+      "zh": "双手端盘子与全手触觉",
+      "en": "Bimanual tray carrying with whole-hand touch"
+    },
+    "caption": {
+      "zh": "仿真双手协同端起托盘，多视角画面同步展示双手压阻响应、指尖视触觉观测与触觉曲线，呈现端盘过程中的接触变化。",
+      "en": "Two simulated hands lift a tray together. Multiple camera views are synchronized with whole-hand pressure responses, fingertip tactile observations and tactile traces, showing changing contacts during the task."
+    },
+    "tag": {
+      "zh": "仿真 · 数据回放",
+      "en": "Simulation · data replay"
+    },
+    "src": "assets/videos/demo-41.mp4?v=tray-1",
+    "poster": "assets/posters/demo-41.jpg"
   }
 ];
