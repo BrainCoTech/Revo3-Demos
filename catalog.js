@@ -761,28 +761,28 @@ window.DEMOS = [
     "poster": "assets/posters/demo-38.jpg"
   },
   {
-    "id": "demo-39",
-    "path": "v72_6940_rapid60_seed194000_video.mp4",
-    "category": "强化学习",
-    "duration": 60.006001,
-    "size": 5522968,
+    "id": "demo-40",
+    "path": "Revo3_Cats_Cradle.mp4",
+    "category": "翻花绳",
+    "duration": 18.2,
+    "size": 5328482,
     "codec_name": "h264",
     "codec_type": "video",
-    "width": 960,
-    "height": 720,
+    "width": 1080,
+    "height": 1920,
     "title": {
-      "zh": "篮球上平衡与任意方向切换",
-      "en": "Balancing on a basketball with arbitrary direction changes"
+      "zh": "Revo3 翻花绳",
+      "en": "Revo3 Cat’s Cradle"
     },
     "caption": {
-      "zh": "仿真灵巧手在滚动的篮球上保持平衡，根据速度指令任意切换行进方向。画面同步显示目标与实际速度，呈现快速换向时的动态平衡。",
-      "en": "A simulated dexterous hand balances on a rolling basketball while switching travel direction in response to velocity commands. Commanded and actual velocities are shown as the hand maintains dynamic balance through rapid direction changes."
+      "zh": "Revo3 灵巧手在仿真中通过手指屈伸与配合改变绳线形态，双视角同步展示手指与绳线的接触和运动。",
+      "en": "A simulated Revo3 hand reshapes a loop of string through coordinated finger motion. Two synchronized views show the contact and movement of the fingers and string."
     },
     "tag": {
-      "zh": "仿真 · 强化学习 · 动态平衡",
-      "en": "Simulation · RL · dynamic balance"
+      "zh": "仿真 · 绳索操作",
+      "en": "Simulation · string manipulation"
     },
-    "src": "assets/videos/demo-39.mp4?v=basketball-1",
-    "poster": "assets/posters/demo-39.jpg"
+    "src": "assets/videos/demo-40.mp4?v=cats-cradle-1",
+    "poster": "assets/posters/demo-40.jpg"
   }
 ];
