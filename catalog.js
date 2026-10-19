@@ -834,5 +834,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-41.mp4?v=tray-1",
     "poster": "assets/posters/demo-41.jpg"
+  },
+  {
+    "id": "demo-42",
+    "path": "IMG_2622.mov",
+    "category": "retargeting",
+    "duration": 15.281933,
+    "size": 4478281,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "遥操作指尖旋转精巧物体",
+      "en": "Teleoperated fingertip rotation of a small object"
+    },
+    "caption": {
+      "zh": "操作者通过手套控制 Revo3 灵巧手，以拇指和其他手指协同调整接触，在指尖旋转小物体。画面并排展示人手动作与真机响应，呈现细微指尖动作到物体姿态变化的映射。",
+      "en": "An operator uses a glove to control the Revo3 hand, coordinating the thumb and fingers to adjust contacts and rotate a small object at the fingertips. Human hand motion and robot response appear side by side, showing how fine finger movements change the object’s orientation."
+    },
+    "tag": {
+      "zh": "真机 · 遥操作",
+      "en": "Real robot · teleoperation"
+    },
+    "src": "assets/videos/demo-42.mp4?v=fingertip-1",
+    "poster": "assets/posters/demo-42.jpg"
   }
 ];
