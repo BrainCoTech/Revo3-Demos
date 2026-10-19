@@ -746,16 +746,16 @@ window.DEMOS = [
     "width": 2560,
     "height": 1600,
     "title": {
-      "zh": "RevoSim 双手多模态触觉仿真",
-      "en": "RevoSim bimanual multimodal tactile simulation"
+      "zh": "RevoSim 全模态触觉仿真",
+      "en": "RevoSim full-modality tactile simulation"
     },
     "caption": {
-      "zh": "球体、立方体和多面体与仿真双手接触，同步展示指尖视触觉图像、marker displacement、深度、六维力／力矩与全手压阻响应。",
-      "en": "A sphere, cube and polyhedron contact simulated hands, with synchronized fingertip tactile images, marker displacement, depth, six-axis force/torque and whole-hand piezoresistive responses."
+      "zh": "球体、立方体和多面体与仿真双手接触，同步展示指尖视触觉 RGB、深度、标记点位移、六维力／力矩，以及全手压阻响应，呈现接触过程中的全模态触觉变化。",
+      "en": "A sphere, cube and polyhedron contact simulated hands, with synchronized fingertip tactile RGB, depth, marker displacement, six-axis force/torque and whole-hand piezoresistive responses showing tactile changes across modalities during contact."
     },
     "tag": {
-      "zh": "仿真 · 多模态触觉",
-      "en": "Simulation · multimodal touch"
+      "zh": "仿真 · 全模态触觉",
+      "en": "Simulation · full-modality touch"
     },
     "src": "assets/videos/demo-38.mp4?v=revosim-tactile-1",
     "poster": "assets/posters/demo-38.jpg"
