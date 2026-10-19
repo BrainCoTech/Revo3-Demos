@@ -859,5 +859,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-42.mp4?v=fingertip-1",
     "poster": "assets/posters/demo-42.jpg"
+  },
+  {
+    "id": "demo-43",
+    "path": "IMG_2637.mov",
+    "category": "retargeting",
+    "duration": 13.380033,
+    "size": 5504135,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "遥操作同时抓取两个物体",
+      "en": "Teleoperated grasping of two objects at once"
+    },
+    "caption": {
+      "zh": "操作者通过手套控制 Revo3 灵巧手，协调手指开合与接触位置，在单手中同时抓持两个物体。画面展示人手动作与真机响应，呈现多物体抓取中的手指配合。",
+      "en": "An operator uses a glove to control the Revo3 hand, coordinating finger motion and contacts to hold two objects in one hand. Human hand motion and robot response show how the fingers work together during multi-object grasping."
+    },
+    "tag": {
+      "zh": "真机 · 遥操作",
+      "en": "Real robot · teleoperation"
+    },
+    "src": "assets/videos/demo-43.mp4?v=two-objects-1",
+    "poster": "assets/posters/demo-43.jpg"
   }
 ];
