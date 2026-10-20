@@ -909,5 +909,80 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-44.mp4?v=pingpong-1",
     "poster": "assets/posters/demo-44.jpg"
+  },
+  {
+    "id": "demo-45",
+    "path": "2ba343bad83f591613438015caeea4a2.mp4",
+    "category": "数据采集",
+    "duration": 18.166667,
+    "size": 4122629,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "双手刷盘子",
+      "en": "Bimanual plate scrubbing"
+    },
+    "caption": {
+      "zh": "一只手握持盘子，另一只手使用海绵擦拭盘面，展示双手配合的数据采集过程。视频按原速播放，已移除声音。",
+      "en": "One hand holds a plate while the other wipes its surface with a sponge, demonstrating bimanual coordination during data collection. Shown at original speed with audio removed."
+    },
+    "tag": {
+      "zh": "真机 · 原速 · 无声",
+      "en": "Real robot · original speed · no audio"
+    },
+    "src": "assets/videos/demo-45.mp4?v=data-tasks-1",
+    "poster": "assets/posters/demo-45.jpg"
+  },
+  {
+    "id": "demo-46",
+    "path": "657f59b87198edeb82b5ca60238522d6.mp4",
+    "category": "数据采集",
+    "duration": 22.466667,
+    "size": 3189904,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "准备早餐：使用夹具",
+      "en": "Preparing breakfast with tongs"
+    },
+    "caption": {
+      "zh": "灵巧手握持夹具，在盘子之间夹取和转移食物道具，展示准备早餐中的工具使用与双手配合。视频按原速播放，已移除声音。",
+      "en": "The dexterous hand uses tongs to pick up and transfer food props between plates, demonstrating tool use and bimanual coordination in a breakfast preparation task. Shown at original speed with audio removed."
+    },
+    "tag": {
+      "zh": "真机 · 原速 · 无声",
+      "en": "Real robot · original speed · no audio"
+    },
+    "src": "assets/videos/demo-46.mp4?v=data-tasks-1",
+    "poster": "assets/posters/demo-46.jpg"
+  },
+  {
+    "id": "demo-47",
+    "path": "6ed8fdf9f1ae8393ee484708a572b7f7.mp4",
+    "category": "数据采集",
+    "duration": 12.566667,
+    "size": 2419653,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "title": {
+      "zh": "把灯泡拧下来",
+      "en": "Unscrewing a light bulb"
+    },
+    "caption": {
+      "zh": "在人手辅助固定灯座的情况下，灵巧手抓住灯泡，通过手指与手腕配合旋转，将灯泡从灯座上拧下。视频按原速播放，已移除声音。",
+      "en": "With a person holding the lamp base steady, the dexterous hand grasps the bulb and coordinates finger and wrist motion to unscrew it from the socket. Shown at original speed with audio removed."
+    },
+    "tag": {
+      "zh": "真机 · 原速 · 无声",
+      "en": "Real robot · original speed · no audio"
+    },
+    "src": "assets/videos/demo-47.mp4?v=data-tasks-1",
+    "poster": "assets/posters/demo-47.jpg"
   }
 ];
