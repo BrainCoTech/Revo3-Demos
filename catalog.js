@@ -227,7 +227,7 @@ window.DEMOS = [
   {
     "id": "demo-13",
     "path": "强化学习/弹钢琴1.mp4",
-    "category": "钢琴演奏",
+    "category": "仿真案例",
     "duration": 6.4,
     "size": 4523557,
     "codec_name": "h264",
@@ -456,7 +456,7 @@ window.DEMOS = [
   {
     "id": "demo-24",
     "path": "revotron_008_presentation.mp4",
-    "category": "钢琴演奏",
+    "category": "仿真案例",
     "duration": 200.426,
     "size": 94000845,
     "codec_name": "h264",
@@ -481,7 +481,7 @@ window.DEMOS = [
   {
     "id": "demo-26",
     "path": "revotron_003_presentation.mp4",
-    "category": "钢琴演奏",
+    "category": "仿真案例",
     "duration": 193.365,
     "size": 84660619,
     "codec_name": "h264",
@@ -506,7 +506,7 @@ window.DEMOS = [
   {
     "id": "demo-27",
     "path": "revotron_007_presentation.mp4",
-    "category": "钢琴演奏",
+    "category": "仿真案例",
     "duration": 123.136,
     "size": 57263523,
     "codec_name": "h264",
@@ -537,7 +537,7 @@ window.DEMOS = [
     "codec_type": "video",
     "width": 1920,
     "height": 1080,
-    "category": "钢琴演奏",
+    "category": "仿真案例",
     "title": {
       "zh": "Going Up Yonder Improvisation",
       "en": "Going Up Yonder Improvisation"
@@ -659,7 +659,7 @@ window.DEMOS = [
     "category": "强化学习",
     "categories": [
       "强化学习",
-      "解魔方"
+      "仿真案例"
     ],
     "duration": 37.566016,
     "size": 4226104,
@@ -788,7 +788,7 @@ window.DEMOS = [
   {
     "id": "demo-40",
     "path": "Revo3_Cats_Cradle.mp4",
-    "category": "翻花绳",
+    "category": "仿真案例",
     "duration": 18.2,
     "size": 5328482,
     "codec_name": "h264",
@@ -884,5 +884,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-43.mp4?v=two-objects-1",
     "poster": "assets/posters/demo-43.jpg"
+  },
+  {
+    "id": "demo-44",
+    "path": "thumb_grasp_split.mp4",
+    "category": "仿真案例",
+    "duration": 30.0,
+    "size": 6499959,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 2560,
+    "height": 960,
+    "title": {
+      "zh": "双臂双手颠乒乓球",
+      "en": "Bimanual table tennis ball bouncing"
+    },
+    "caption": {
+      "zh": "仿真机器人双手分别握持球拍，双臂配合连续颠起乒乓球。分屏同步展示机器人全身动作与左手握拍近景，呈现持拍姿态和球拍运动的配合。",
+      "en": "A simulated robot holds a paddle in each hand and coordinates both arms to repeatedly bounce table tennis balls. Synchronized full-body and left-hand close-up views show the paddle grip and motion."
+    },
+    "tag": {
+      "zh": "仿真 · 双臂双手协作",
+      "en": "Simulation · bimanual coordination"
+    },
+    "src": "assets/videos/demo-44.mp4?v=pingpong-1",
+    "poster": "assets/posters/demo-44.jpg"
   }
 ];
