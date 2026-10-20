@@ -1046,5 +1046,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-49.mp4?v=orbit-1",
     "poster": "assets/posters/demo-49.jpg"
+  },
+  {
+    "id": "demo-50",
+    "path": "lQbPJxJQSyai5SkAALCEMuHy01xuWQqhhzkMMVwA.mp4",
+    "category": "real-to-sim",
+    "duration": 19.833333,
+    "size": 2019742,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 960,
+    "height": 544,
+    "title": {
+      "zh": "仿真与真机 URDF 运动学对齐",
+      "en": "Simulation-to-hardware URDF kinematic alignment"
+    },
+    "caption": {
+      "zh": "真机手指运动与屏幕中的 URDF 模型同步展示，直观对比关节运动和手指姿态。演示中的模型响应与真机动作高度一致，体现仿真与真机 URDF 的高精度运动学对齐。",
+      "en": "Real finger movements and the on-screen URDF model are shown together for a direct comparison of joint motion and finger poses. The model closely matches the hardware movements shown, demonstrating precise kinematic alignment between the simulation and hardware URDFs."
+    },
+    "tag": {
+      "zh": "真机与仿真 · URDF · 运动学对齐",
+      "en": "Real robot & simulation · URDF · kinematic alignment"
+    },
+    "src": "assets/videos/demo-50.mp4?v=urdf-alignment-1",
+    "poster": "assets/posters/demo-50.jpg"
   }
 ];
