@@ -816,7 +816,8 @@ window.DEMOS = [
       "en": "Simulation · string manipulation"
     },
     "src": "assets/videos/demo-40.mp4?v=cats-cradle-1",
-    "poster": "assets/posters/demo-40.jpg"
+    "poster": "assets/posters/demo-40.jpg",
+    "codeUrl": "https://github.com/DavidLXu/Revo3-Newton-CatCradle"
   },
   {
     "id": "demo-41",
