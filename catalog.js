@@ -1070,6 +1070,10 @@ window.DEMOS = [
       "en": "Real robot & simulation · URDF · kinematic alignment"
     },
     "src": "assets/videos/demo-50.mp4?v=urdf-alignment-1",
-    "poster": "assets/posters/demo-50.jpg"
+    "poster": "assets/posters/demo-50.jpg",
+    "categories": [
+      "real-to-sim",
+      "仿真案例"
+    ]
   }
 ];
