@@ -1017,5 +1017,34 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-48.mp4?v=dexterous-dog-1",
     "poster": "assets/posters/demo-48.jpg"
+  },
+  {
+    "id": "demo-49",
+    "path": "revosim-orbit-60fps.mp4",
+    "category": "real-to-sim",
+    "categories": [
+      "real-to-sim",
+      "仿真案例"
+    ],
+    "duration": 15.0,
+    "size": 7376629,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1600,
+    "height": 1000,
+    "title": {
+      "zh": "RevoSim 高保真四维对齐",
+      "en": "RevoSim high-fidelity alignment across four dimensions"
+    },
+    "caption": {
+      "zh": "环绕视角展示 Revo3 双手仿真模型及关节运动。模型从四个维度与真机对齐：高保真视觉特征、运动学对齐、动力学辨识，以及触觉点位分布。",
+      "en": "An orbiting view presents the simulated Revo3 hands and their joint motion. The model aligns with the real hardware across four dimensions: high-fidelity visual features, kinematics, dynamics through system identification, and tactile sensing locations."
+    },
+    "tag": {
+      "zh": "仿真 · 高保真建模 · 四维对齐",
+      "en": "Simulation · high-fidelity modeling · four-dimensional alignment"
+    },
+    "src": "assets/videos/demo-49.mp4?v=orbit-1",
+    "poster": "assets/posters/demo-49.jpg"
   }
 ];
