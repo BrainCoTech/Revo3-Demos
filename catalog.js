@@ -783,7 +783,11 @@ window.DEMOS = [
       "en": "Simulation · RL · dynamic balance"
     },
     "src": "assets/videos/demo-39.mp4?v=basketball-1",
-    "poster": "assets/posters/demo-39.jpg"
+    "poster": "assets/posters/demo-39.jpg",
+    "categories": [
+      "仿真案例",
+      "强化学习"
+    ]
   },
   {
     "id": "demo-40",
