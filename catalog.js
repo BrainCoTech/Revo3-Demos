@@ -984,5 +984,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-47.mp4?v=data-tasks-1",
     "poster": "assets/posters/demo-47.jpg"
+  },
+  {
+    "id": "demo-48",
+    "path": "灵巧狗.mp4",
+    "category": "仿真案例",
+    "duration": 13.36,
+    "size": 3461505,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "灵巧狗",
+      "en": "Dexterous Dog"
+    },
+    "caption": {
+      "zh": "仿真中的 Revo3 灵巧手以手指作为支撑，在地面上交替迈步，像小狗一样行走，展示灵巧手用于移动的另一种形式。",
+      "en": "A simulated Revo3 hand uses its fingers as legs, alternating ground contacts to walk like a small dog and demonstrating another form of dexterous-hand locomotion."
+    },
+    "tag": {
+      "zh": "仿真 · 手指行走",
+      "en": "Simulation · finger locomotion"
+    },
+    "src": "assets/videos/demo-48.mp4?v=dexterous-dog-1",
+    "poster": "assets/posters/demo-48.jpg"
   }
 ];

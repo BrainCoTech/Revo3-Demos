@@ -1,7 +1,7 @@
 (() => {
  const groups=[
  ['all','全部演示','All demos','从动作映射到全手触觉，浏览 9个细分方向的真机、仿真与数据演示。','Browse real-robot, simulation and data demonstrations across nine directions.'],
- ['仿真案例','仿真案例','Simulation demos','双臂双手颠乒乓球、翻花绳、解魔方与钢琴演奏，展示仿真中的多种操作案例。','Explore simulated manipulation through bimanual ball bouncing, cat’s cradle, Rubik’s Cube solving and piano playing.'],
+ ['仿真案例','仿真案例','Simulation demos','灵巧狗、双臂双手颠乒乓球、翻花绳、解魔方与钢琴演奏，展示仿真中的多种运动与操作案例。','Explore simulated motion and manipulation through Dexterous Dog, bimanual ball bouncing, cat’s cradle, Rubik’s Cube solving and piano playing.'],
  ['强化学习','强化学习','RL','篮球上动态平衡、掌内旋转、手臂协作与双手运动。保留训练过程和不同阶段的演示。','Dynamic balance on a basketball, in-hand rotation, arm–hand coordination and bimanual motion, including work in training.'],
  ['数据采集','数据采集','Data collection','从真人示教到机器人执行，浏览高效采集多模态操作数据的现场案例。','From human demonstration to robot execution, explore examples of efficient multimodal manipulation data collection.'],
  ['模仿学习','模仿学习','Imitation learning','从桌面抓取到抽屉任务，观察示教驱动的操作与并行仿真回放。','Demonstration-driven manipulation, from tabletop grasps to drawer tasks and parallel simulated rollouts.'],
@@ -13,7 +13,7 @@
  ];
  let lang='zh';try{lang=localStorage.getItem('revo3-language')||'zh'}catch{}if(!['zh','en'].includes(lang))lang='zh';
  let selected='all';const grid=document.querySelector('#demo-grid'),nav=document.querySelector('#categories');
- const order=[36,45,46,47,15,14,2,44,40,39,35,10,7,37,4,32,42,43,38,21,34,5,1,8,9,31,33,19,20,41,22,17,23,24,26,27,30,13];
+ const order=[36,45,46,47,15,14,2,48,44,40,39,35,10,7,37,4,32,42,43,38,21,34,5,1,8,9,31,33,19,20,41,22,17,23,24,26,27,30,13];
  const demos=order.map(n=>window.DEMOS.find(d=>d.id===`demo-${String(n).padStart(2,'0')}`));
  const categories=d=>d.categories||[d.category];
  const belongs=(d,category)=>categories(d).includes(category);
