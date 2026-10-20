@@ -758,7 +758,11 @@ window.DEMOS = [
       "en": "Simulation · full-modality touch"
     },
     "src": "assets/videos/demo-38.mp4?v=revosim-tactile-1",
-    "poster": "assets/posters/demo-38.jpg"
+    "poster": "assets/posters/demo-38.jpg",
+    "categories": [
+      "触觉",
+      "real-to-sim"
+    ]
   },
   {
     "id": "demo-39",
