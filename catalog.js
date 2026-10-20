@@ -933,8 +933,8 @@ window.DEMOS = [
       "en": "Bimanual plate scrubbing"
     },
     "caption": {
-      "zh": "一只手握持盘子，另一只手使用海绵擦拭盘面，展示双手配合的数据采集过程。视频按原速播放，已移除声音。",
-      "en": "One hand holds a plate while the other wipes its surface with a sponge, demonstrating bimanual coordination during data collection. Shown at original speed with audio removed."
+      "zh": "一只手握持盘子，另一只手使用海绵擦拭盘面，展示双手配合的数据采集过程。视频按原速播放。",
+      "en": "One hand holds a plate while the other wipes its surface with a sponge, demonstrating bimanual coordination during data collection. Shown at original speed."
     },
     "tag": {
       "zh": "真机 · 原速 · 无声",
@@ -958,8 +958,8 @@ window.DEMOS = [
       "en": "Preparing breakfast with tongs"
     },
     "caption": {
-      "zh": "灵巧手握持夹具，在盘子之间夹取和转移食物道具，展示准备早餐中的工具使用与双手配合。视频按原速播放，已移除声音。",
-      "en": "The dexterous hand uses tongs to pick up and transfer food props between plates, demonstrating tool use and bimanual coordination in a breakfast preparation task. Shown at original speed with audio removed."
+      "zh": "灵巧手握持夹具，在盘子之间夹取和转移食物道具，展示准备早餐中的工具使用与双手配合。视频按原速播放。",
+      "en": "The dexterous hand uses tongs to pick up and transfer food props between plates, demonstrating tool use and bimanual coordination in a breakfast preparation task. Shown at original speed."
     },
     "tag": {
       "zh": "真机 · 原速 · 无声",
@@ -983,8 +983,8 @@ window.DEMOS = [
       "en": "Unscrewing a light bulb"
     },
     "caption": {
-      "zh": "在人手辅助固定灯座的情况下，灵巧手抓住灯泡，通过手指与手腕配合旋转，将灯泡从灯座上拧下。视频按原速播放，已移除声音。",
-      "en": "With a person holding the lamp base steady, the dexterous hand grasps the bulb and coordinates finger and wrist motion to unscrew it from the socket. Shown at original speed with audio removed."
+      "zh": "在人手辅助固定灯座的情况下，灵巧手抓住灯泡，通过手指与手腕配合旋转，将灯泡从灯座上拧下。视频按原速播放。",
+      "en": "With a person holding the lamp base steady, the dexterous hand grasps the bulb and coordinates finger and wrist motion to unscrew it from the socket. Shown at original speed."
     },
     "tag": {
       "zh": "真机 · 原速 · 无声",
