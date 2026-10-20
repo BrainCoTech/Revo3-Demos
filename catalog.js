@@ -916,7 +916,8 @@ window.DEMOS = [
       "en": "Simulation · bimanual coordination"
     },
     "src": "assets/videos/demo-44.mp4?v=pingpong-1",
-    "poster": "assets/posters/demo-44.jpg"
+    "poster": "assets/posters/demo-44.jpg",
+    "codeUrl": "https://github.com/DavidLXu/RevoTron-PingPong"
   },
   {
     "id": "demo-45",
