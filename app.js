@@ -1,6 +1,6 @@
 (() => {
  const groups=[
- ['all','全部演示','All demos','从动作映射到全手触觉，浏览 9 个方向的真机、仿真与数据演示。','Browse real-robot, simulation and data demonstrations across nine directions.'],
+ ['all','全部演示','All demos','从动作映射到全手触觉，浏览 9个细分方向的真机、仿真与数据演示。','Browse real-robot, simulation and data demonstrations across nine directions.'],
  ['仿真案例','仿真案例','Simulation demos','双臂双手颠乒乓球、翻花绳、解魔方与钢琴演奏，展示仿真中的多种操作案例。','Explore simulated manipulation through bimanual ball bouncing, cat’s cradle, Rubik’s Cube solving and piano playing.'],
  ['强化学习','强化学习','RL','篮球上动态平衡、掌内旋转、手臂协作与双手运动。保留训练过程和不同阶段的演示。','Dynamic balance on a basketball, in-hand rotation, arm–hand coordination and bimanual motion, including work in training.'],
  ['数据采集','数据采集','Data collection','从真人示教到机器人执行，浏览高效采集多模态操作数据的现场案例。','From human demonstration to robot execution, explore examples of efficient multimodal manipulation data collection.'],
