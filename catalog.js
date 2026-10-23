@@ -1202,5 +1202,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-55.mp4?v=data-five-1",
     "poster": "assets/posters/demo-55.jpg"
+  },
+  {
+    "id": "demo-56",
+    "path": "21f344f761b04ff46a8dcb7b1c1a2c7c.mp4",
+    "category": "数据采集",
+    "duration": 22.166667,
+    "size": 4872372,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "title": {
+      "zh": "连续夹取黄豆粒",
+      "en": "Repeated soybean picking with tweezers"
+    },
+    "caption": {
+      "zh": "灵巧手握持镊子，连续夹取并转移盘中的黄豆粒，展示小颗粒操作中的工具开合控制、位置对准与接触调整。视频按原速播放。",
+      "en": "The dexterous hand holds tweezers to repeatedly pick up and transfer soybeans from a plate, demonstrating tool actuation, precise positioning, and contact adjustments when handling small objects. Shown at original speed."
+    },
+    "tag": {
+      "zh": "真机 · 数据采集 · 原速播放",
+      "en": "Real robot · data collection · original speed"
+    },
+    "src": "assets/videos/demo-56.mp4?v=soybean-1",
+    "poster": "assets/posters/demo-56.jpg"
   }
 ];
