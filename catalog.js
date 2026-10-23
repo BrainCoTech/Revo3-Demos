@@ -1077,5 +1077,130 @@ window.DEMOS = [
       "real-to-sim",
       "仿真案例"
     ]
+  },
+  {
+    "id": "demo-51",
+    "path": "瓶盖旋松-裁剪版.mp4",
+    "category": "数据采集",
+    "duration": 25.4,
+    "size": 5169278,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "旋松瓶盖",
+      "en": "Loosening a bottle cap"
+    },
+    "caption": {
+      "zh": "双手配合固定瓶身与抓持瓶盖，通过手指和手腕的协调转动旋松瓶盖，记录抓持、旋转与接触调整的操作过程。视频按原速播放。",
+      "en": "The hands coordinate to hold the bottle and turn its cap, recording grasping, rotation, and contact adjustments. Shown at original speed."
+    },
+    "tag": {
+      "zh": "真机 · 数据采集 · 原速播放",
+      "en": "Real robot · data collection · original speed"
+    },
+    "src": "assets/videos/demo-51.mp4?v=data-five-1",
+    "poster": "assets/posters/demo-51.jpg"
+  },
+  {
+    "id": "demo-52",
+    "path": "瓶盖旋紧再旋松-裁剪版.mp4",
+    "category": "数据采集",
+    "duration": 65.5,
+    "size": 16416538,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "瓶盖旋紧再旋松",
+      "en": "Tightening and loosening a bottle cap"
+    },
+    "caption": {
+      "zh": "双手配合完成瓶盖旋紧与再次旋松，展示同一物体上的连续操作，以及旋转方向切换时的抓持调整。视频按原速播放。",
+      "en": "The hands tighten and then loosen a bottle cap, demonstrating sequential manipulation and grasp adjustments when reversing rotation. Shown at original speed."
+    },
+    "tag": {
+      "zh": "真机 · 数据采集 · 原速播放",
+      "en": "Real robot · data collection · original speed"
+    },
+    "src": "assets/videos/demo-52.mp4?v=data-five-1",
+    "poster": "assets/posters/demo-52.jpg"
+  },
+  {
+    "id": "demo-53",
+    "path": "自由度展示-裁剪版.mp4",
+    "category": "数据采集",
+    "duration": 11.233333,
+    "size": 3161213,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "灵巧手自由度展示",
+      "en": "Dexterous hand joint motion"
+    },
+    "caption": {
+      "zh": "操作者佩戴手套，控制灵巧手完成手指屈伸、张合与姿态变化，展示人手动作与真机响应的数据采集过程。视频按原速播放。",
+      "en": "A gloved operator controls finger flexion, extension, opening, and hand poses, demonstrating data collection of human motion and real-robot responses. Shown at original speed."
+    },
+    "tag": {
+      "zh": "真机 · 数据采集 · 原速播放",
+      "en": "Real robot · data collection · original speed"
+    },
+    "src": "assets/videos/demo-53.mp4?v=data-five-1",
+    "poster": "assets/posters/demo-53.jpg"
+  },
+  {
+    "id": "demo-54",
+    "path": "工具精细操作（镊子、夹子）-裁剪版.mp4",
+    "category": "数据采集",
+    "duration": 87.633333,
+    "size": 16880471,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "工具精细操作：镊子与夹子",
+      "en": "Fine tool manipulation with tweezers and tongs"
+    },
+    "caption": {
+      "zh": "灵巧手握持镊子和夹子，完成小物体的夹取与转移，展示工具开合控制、接触位置调整和双手配合。视频按原速播放。",
+      "en": "The dexterous hands use tweezers and tongs to pick up and transfer small objects, demonstrating tool actuation, contact adjustments, and bimanual coordination. Shown at original speed."
+    },
+    "tag": {
+      "zh": "真机 · 数据采集 · 原速播放",
+      "en": "Real robot · data collection · original speed"
+    },
+    "src": "assets/videos/demo-54.mp4?v=data-five-1",
+    "poster": "assets/posters/demo-54.jpg"
+  },
+  {
+    "id": "demo-55",
+    "path": "长程任务叠积木-裁剪版.mp4",
+    "category": "数据采集",
+    "duration": 121.1,
+    "size": 26196995,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "title": {
+      "zh": "长程任务：叠积木",
+      "en": "Long-horizon block stacking"
+    },
+    "caption": {
+      "zh": "灵巧手连续抓取、移动和放置积木，逐步完成堆叠，记录多步骤任务中的抓持调整、位置对准与放置过程。视频按原速播放。",
+      "en": "The dexterous hands repeatedly grasp, move, and place blocks to build a stack, recording grasp adjustments, alignment, and placement throughout a multi-step task. Shown at original speed."
+    },
+    "tag": {
+      "zh": "真机 · 数据采集 · 原速播放",
+      "en": "Real robot · data collection · original speed"
+    },
+    "src": "assets/videos/demo-55.mp4?v=data-five-1",
+    "poster": "assets/posters/demo-55.jpg"
   }
 ];
