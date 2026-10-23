@@ -13,7 +13,7 @@
  ];
  let lang='zh';try{lang=localStorage.getItem('revo3-language')||'zh'}catch{}if(!['zh','en'].includes(lang))lang='zh';
  let selected='all';const grid=document.querySelector('#demo-grid'),nav=document.querySelector('#categories');
- const order=[36,51,52,53,54,55,46,45,47,15,14,2,49,50,44,40,39,35,10,48,7,37,42,43,4,32,38,21,34,5,1,8,9,31,33,19,20,41,22,17,23,24,26,27,30,13];
+ const order=[36,55,51,52,53,54,46,45,47,15,14,2,49,50,44,40,39,35,10,48,7,37,42,43,4,32,38,21,34,5,1,8,9,31,33,19,20,41,22,17,23,24,26,27,30,13];
  const demos=order.map(n=>window.DEMOS.find(d=>d.id===`demo-${String(n).padStart(2,'0')}`));
  const categories=d=>d.categories||[d.category];
  const belongs=(d,category)=>categories(d).includes(category);
