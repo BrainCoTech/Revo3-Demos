@@ -1183,7 +1183,7 @@ window.DEMOS = [
     "path": "长程任务叠积木-裁剪版.mp4",
     "category": "数据采集",
     "duration": 121.1,
-    "size": 26196995,
+    "size": 32047243,
     "codec_name": "h264",
     "codec_type": "video",
     "width": 1280,
@@ -1200,7 +1200,7 @@ window.DEMOS = [
       "zh": "真机 · 数据采集 · 原速播放",
       "en": "Real robot · data collection · original speed"
     },
-    "src": "assets/videos/demo-55.mp4?v=data-five-1",
+    "src": "assets/videos/demo-55.mp4?v=meeting-blur-1",
     "poster": "assets/posters/demo-55.jpg"
   },
   {
