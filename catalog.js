@@ -1115,16 +1115,16 @@ window.DEMOS = [
     "width": 1280,
     "height": 720,
     "title": {
-      "zh": "灵巧手自由度展示",
-      "en": "Dexterous hand joint motion"
+      "zh": "低延迟遥操作：流畅跟随人手动作",
+      "en": "Low-latency teleoperation: smooth hand-motion tracking"
     },
     "caption": {
-      "zh": "操作者佩戴手套，控制灵巧手完成手指屈伸、张合与姿态变化，展示人手动作与真机响应的数据采集过程。视频按原速播放。",
-      "en": "A gloved operator controls finger flexion, extension, opening, and hand poses, demonstrating data collection of human motion and real-robot responses. Shown at original speed."
+      "zh": "操作者通过手套控制 Revo3 灵巧手，真机流畅跟随人手的屈伸、张合与连续姿态变化，展示低延迟遥操作下的动作响应。端到端延迟约 20–50 ms。视频按原速播放。",
+      "en": "An operator controls the Revo3 hand through a glove. The robot smoothly follows finger flexion, extension, opening, and continuous pose changes, demonstrating responsive, low-latency teleoperation. End-to-end latency is approximately 20–50 ms. Shown at original speed."
     },
     "tag": {
-      "zh": "真机 · 数据采集 · 原速播放",
-      "en": "Real robot · data collection · original speed"
+      "zh": "真机 · 遥操作 · 低延迟 · 原速播放",
+      "en": "Real robot · teleoperation · low latency · original speed"
     },
     "src": "assets/videos/demo-53.mp4?v=data-five-1",
     "poster": "assets/posters/demo-53.jpg"
