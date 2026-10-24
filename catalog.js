@@ -1080,31 +1080,6 @@ window.DEMOS = [
     ]
   },
   {
-    "id": "demo-51",
-    "path": "瓶盖旋松-裁剪版.mp4",
-    "category": "数据采集",
-    "duration": 25.4,
-    "size": 5169278,
-    "codec_name": "h264",
-    "codec_type": "video",
-    "width": 1280,
-    "height": 720,
-    "title": {
-      "zh": "旋松瓶盖",
-      "en": "Loosening a bottle cap"
-    },
-    "caption": {
-      "zh": "双手配合固定瓶身与抓持瓶盖，通过手指和手腕的协调转动旋松瓶盖，记录抓持、旋转与接触调整的操作过程。视频按原速播放。",
-      "en": "The hands coordinate to hold the bottle and turn its cap, recording grasping, rotation, and contact adjustments. Shown at original speed."
-    },
-    "tag": {
-      "zh": "真机 · 数据采集 · 原速播放",
-      "en": "Real robot · data collection · original speed"
-    },
-    "src": "assets/videos/demo-51.mp4?v=data-five-1",
-    "poster": "assets/posters/demo-51.jpg"
-  },
-  {
     "id": "demo-52",
     "path": "瓶盖旋紧再旋松-裁剪版.mp4",
     "category": "数据采集",
@@ -1153,31 +1128,6 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-53.mp4?v=data-five-1",
     "poster": "assets/posters/demo-53.jpg"
-  },
-  {
-    "id": "demo-54",
-    "path": "工具精细操作（镊子、夹子）-裁剪版.mp4",
-    "category": "数据采集",
-    "duration": 87.633333,
-    "size": 16880471,
-    "codec_name": "h264",
-    "codec_type": "video",
-    "width": 1280,
-    "height": 720,
-    "title": {
-      "zh": "工具精细操作：镊子与夹子",
-      "en": "Fine tool manipulation with tweezers and tongs"
-    },
-    "caption": {
-      "zh": "灵巧手握持镊子和夹子，完成小物体的夹取与转移，展示工具开合控制、接触位置调整和双手配合。视频按原速播放。",
-      "en": "The dexterous hands use tweezers and tongs to pick up and transfer small objects, demonstrating tool actuation, contact adjustments, and bimanual coordination. Shown at original speed."
-    },
-    "tag": {
-      "zh": "真机 · 数据采集 · 原速播放",
-      "en": "Real robot · data collection · original speed"
-    },
-    "src": "assets/videos/demo-54.mp4?v=data-five-1",
-    "poster": "assets/posters/demo-54.jpg"
   },
   {
     "id": "demo-55",
