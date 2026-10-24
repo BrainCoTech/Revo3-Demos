@@ -1018,7 +1018,8 @@ window.DEMOS = [
       "en": "Simulation · finger locomotion"
     },
     "src": "assets/videos/demo-48.mp4?v=dexterous-dog-1",
-    "poster": "assets/posters/demo-48.jpg"
+    "poster": "assets/posters/demo-48.jpg",
+    "codeUrl": "https://github.com/DavidLXu/Revo3-Ground-Locomotion"
   },
   {
     "id": "demo-49",
