@@ -180,3 +180,14 @@ a.ecosystem-node:hover{border-color:#4d8997;background:#eff7f7}
 @media(max-width:600px){.revotac-heading h4{font-size:28px}}
 
 .visitor-count{margin-top:5px;font-variant-numeric:tabular-nums}
+
+/* Give wider screens more demo columns while keeping cards readable. */
+.demo-links{flex-wrap:wrap;row-gap:8px}
+@media(min-width:1400px){
+ .collection.wrap{width:min(1920px,calc(100% - 96px))}
+ .demo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .video-wrap{aspect-ratio:16/9}
+}
+@media(min-width:1900px){
+ .demo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
