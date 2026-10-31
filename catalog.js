@@ -203,11 +203,11 @@ window.DEMOS = [
     "id": "demo-10",
     "path": "强化学习/revo3-RL-sim2real-转方块.MP4",
     "category": "强化学习",
-    "duration": 35.6,
-    "size": 9139674,
-    "codec_name": "hevc",
+    "duration": 22.222,
+    "size": 4800000,
+    "codec_name": "h264",
     "codec_type": "video",
-    "width": 1918,
+    "width": 1920,
     "height": 1080,
     "title": {
       "zh": "Sim-to-real 方块旋转",
@@ -221,7 +221,7 @@ window.DEMOS = [
       "zh": "真机",
       "en": "Real robot"
     },
-    "src": "assets/videos/demo-10.mp4?v=compressed-1",
+    "src": "assets/videos/demo-10.mp4?v=sim-to-real-cube-2",
     "poster": "assets/posters/demo-10.jpg"
   },
   {
