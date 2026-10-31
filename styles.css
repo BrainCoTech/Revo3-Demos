@@ -192,5 +192,5 @@ a.ecosystem-node:hover{border-color:#4d8997;background:#eff7f7}
  .demo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
 }
 
-/* Preserve the portrait display ratio of the cube rotation demo. */
-.demo#demo-10 .video-wrap{aspect-ratio:9/16}
+
+
