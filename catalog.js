@@ -204,7 +204,7 @@ window.DEMOS = [
     "path": "强化学习/revo3-RL-sim2real-转方块.MP4",
     "category": "强化学习",
     "duration": 22.222,
-    "size": 4800000,
+    "size": 4992434,
     "codec_name": "h264",
     "codec_type": "video",
     "width": 1920,
