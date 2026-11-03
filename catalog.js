@@ -204,7 +204,7 @@ window.DEMOS = [
     "path": "强化学习/revo3-RL-sim2real-转方块.MP4",
     "category": "强化学习",
     "duration": 22.222,
-    "size": 7088489,
+    "size": 6714377,
     "codec_name": "h264",
     "codec_type": "video",
     "width": 720,
@@ -221,7 +221,7 @@ window.DEMOS = [
       "zh": "真机",
       "en": "Real robot"
     },
-    "src": "assets/videos/demo-10.mp4?v=portrait-fixed-1",
+    "src": "assets/videos/demo-10.mp4?v=noaudio-cf32dff2a",
     "poster": "assets/posters/demo-10.jpg?v=portrait-fixed-1"
   },
   {
@@ -1084,7 +1084,7 @@ window.DEMOS = [
     "path": "瓶盖旋紧再旋松-裁剪版.mp4",
     "category": "数据采集",
     "duration": 65.5,
-    "size": 16416538,
+    "size": 16363034,
     "codec_name": "h264",
     "codec_type": "video",
     "width": 1280,
@@ -1101,7 +1101,7 @@ window.DEMOS = [
       "zh": "真机 · 数据采集 · 原速播放",
       "en": "Real robot · data collection · original speed"
     },
-    "src": "assets/videos/demo-52.mp4?v=data-five-1",
+    "src": "assets/videos/demo-52.mp4?v=noaudio-6f69f3d48",
     "poster": "assets/posters/demo-52.jpg"
   },
   {
@@ -1109,7 +1109,7 @@ window.DEMOS = [
     "path": "长程任务叠积木-裁剪版.mp4",
     "category": "数据采集",
     "duration": 121.1,
-    "size": 32047243,
+    "size": 31948817,
     "codec_name": "h264",
     "codec_type": "video",
     "width": 1280,
@@ -1126,7 +1126,7 @@ window.DEMOS = [
       "zh": "真机 · 数据采集 · 原速播放",
       "en": "Real robot · data collection · original speed"
     },
-    "src": "assets/videos/demo-55.mp4?v=meeting-blur-1",
+    "src": "assets/videos/demo-55.mp4?v=noaudio-a52769b55",
     "poster": "assets/posters/demo-55.jpg"
   },
   {
@@ -1134,7 +1134,7 @@ window.DEMOS = [
     "path": "21f344f761b04ff46a8dcb7b1c1a2c7c.mp4",
     "category": "数据采集",
     "duration": 22.166667,
-    "size": 4872372,
+    "size": 4720154,
     "codec_name": "h264",
     "codec_type": "video",
     "width": 720,
@@ -1151,7 +1151,7 @@ window.DEMOS = [
       "zh": "真机 · 数据采集 · 原速播放",
       "en": "Real robot · data collection · original speed"
     },
-    "src": "assets/videos/demo-56.mp4?v=soybean-1",
+    "src": "assets/videos/demo-56.mp4?v=noaudio-c6ff28f32",
     "poster": "assets/posters/demo-56.jpg"
   },
   {
@@ -1236,7 +1236,7 @@ window.DEMOS = [
     "duration": 25.57555,
     "width": 720,
     "height": 1280,
-    "size": 5388522,
+    "size": 4796889,
     "codec_name": "h264",
     "codec_type": "video",
     "title": {
@@ -1251,7 +1251,7 @@ window.DEMOS = [
       "zh": "真机 · 自主操作",
       "en": "Real robot · autonomous manipulation"
     },
-    "src": "assets/videos/demo-60.mp4",
+    "src": "assets/videos/demo-60.mp4?v=noaudio-2575f7e08",
     "poster": "assets/posters/demo-60.jpg"
   }
 ];
