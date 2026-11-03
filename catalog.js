@@ -1203,5 +1203,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-58.mp4",
     "poster": "assets/posters/demo-58.jpg"
+  },
+  {
+    "id": "demo-59",
+    "path": "video_20261103_151128.mp4",
+    "category": "数据采集",
+    "duration": 17.53495,
+    "width": 720,
+    "height": 1280,
+    "size": 2181133,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "双手配合抓牌",
+      "en": "Drawing playing cards with two hands"
+    },
+    "caption": {
+      "zh": "一只灵巧手握住一叠扑克牌，另一只手用指尖夹住牌边，逐张抽出并放到桌面。视频按原速播放。",
+      "en": "One hand holds a stack of playing cards while the other pinches each card by its edge, draws it out, and places it on the table. Shown at original speed."
+    },
+    "tag": {
+      "zh": "真机 · 原速播放",
+      "en": "Real robot · original speed"
+    },
+    "src": "assets/videos/demo-59.mp4",
+    "poster": "assets/posters/demo-59.jpg"
   }
 ];
