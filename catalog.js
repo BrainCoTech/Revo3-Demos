@@ -1153,5 +1153,55 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-56.mp4?v=soybean-1",
     "poster": "assets/posters/demo-56.jpg"
+  },
+  {
+    "id": "demo-57",
+    "path": "MT_十球同步_指尖指腹侧面手掌滑移.mp4",
+    "category": "触觉",
+    "duration": 41.0,
+    "size": 6375074,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 2560,
+    "height": 1600,
+    "title": {
+      "zh": "MT 十球同步滑移：双手触觉响应",
+      "en": "MT tactile response to ten sliding probes"
+    },
+    "caption": {
+      "zh": "在 Isaac Sim 与 RevoSim 仿真中，十个球形探针同步按压并滑过双手的指尖、指腹、手指侧面和手掌。画面同步显示指尖视触觉图像、力与力矩读数，以及各接触区域的触觉响应。",
+      "en": "In Isaac Sim and RevoSim, ten spherical probes press and slide across the fingertips, finger pads, sides of the fingers, and palms of both hands. The fingertip tactile images, force and torque readings, and tactile response maps update alongside the contacts."
+    },
+    "tag": {
+      "zh": "仿真 · 全手触觉 · 滑移",
+      "en": "Simulation · whole-hand tactile sensing · sliding contact"
+    },
+    "src": "assets/videos/demo-57.mp4",
+    "poster": "assets/posters/demo-57.jpg"
+  },
+  {
+    "id": "demo-58",
+    "path": "MX_十球同步_指尖指腹侧面手掌滑移.mp4",
+    "category": "触觉",
+    "duration": 41.0,
+    "size": 6297939,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 2560,
+    "height": 1600,
+    "title": {
+      "zh": "MX 十球同步滑移：双手触觉响应",
+      "en": "MX tactile response to ten sliding probes"
+    },
+    "caption": {
+      "zh": "在 Isaac Sim 与 RevoSim 仿真中，十个球形探针同步按压并滑过双手的指尖、指腹、手指侧面和手掌。画面同步显示指尖视触觉图像、力与力矩读数，以及各接触区域的触觉响应。",
+      "en": "In Isaac Sim and RevoSim, ten spherical probes press and slide across the fingertips, finger pads, sides of the fingers, and palms of both hands. The fingertip tactile images, force and torque readings, and tactile response maps update alongside the contacts."
+    },
+    "tag": {
+      "zh": "仿真 · 全手触觉 · 滑移",
+      "en": "Simulation · whole-hand tactile sensing · sliding contact"
+    },
+    "src": "assets/videos/demo-58.mp4",
+    "poster": "assets/posters/demo-58.jpg"
   }
 ];
