@@ -1228,5 +1228,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-59.mp4",
     "poster": "assets/posters/demo-59.jpg"
+  },
+  {
+    "id": "demo-60",
+    "path": "IMG_2931.mov",
+    "category": "模仿学习",
+    "duration": 25.57555,
+    "width": 720,
+    "height": 1280,
+    "size": 5388522,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "自主拧灯泡：未到位后再次拧紧",
+      "en": "Tightening a light bulb on a second attempt"
+    },
+    "caption": {
+      "zh": "机器人第一次旋拧后松开手，灯泡仍未亮起。灵巧手随后返回，重新握住灯泡再拧一下，灯泡亮起后才撤回。",
+      "en": "The robot turns the bulb and releases it, but the bulb remains unlit. The hand returns, grasps the bulb again, and gives it another turn. This time the bulb lights up, and the hand withdraws."
+    },
+    "tag": {
+      "zh": "真机 · 自主操作",
+      "en": "Real robot · autonomous manipulation"
+    },
+    "src": "assets/videos/demo-60.mp4",
+    "poster": "assets/posters/demo-60.jpg"
   }
 ];
