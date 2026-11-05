@@ -606,7 +606,7 @@ window.DEMOS = [
   {
     "id": "demo-33",
     "path": "revo3-半圈往复转笔.mp4",
-    "duration": 18.0,
+    "duration": 18,
     "size": 3686745,
     "codec_name": "h264",
     "codec_type": "video",
@@ -898,7 +898,7 @@ window.DEMOS = [
     "id": "demo-44",
     "path": "thumb_grasp_split.mp4",
     "category": "仿真案例",
-    "duration": 30.0,
+    "duration": 30,
     "size": 6499959,
     "codec_name": "h264",
     "codec_type": "video",
@@ -1029,7 +1029,7 @@ window.DEMOS = [
       "real-to-sim",
       "仿真案例"
     ],
-    "duration": 15.0,
+    "duration": 15,
     "size": 7376629,
     "codec_name": "h264",
     "codec_type": "video",
@@ -1158,7 +1158,7 @@ window.DEMOS = [
     "id": "demo-57",
     "path": "MT_十球同步_指尖指腹侧面手掌滑移.mp4",
     "category": "触觉",
-    "duration": 41.0,
+    "duration": 41,
     "size": 6375074,
     "codec_name": "h264",
     "codec_type": "video",
@@ -1183,7 +1183,7 @@ window.DEMOS = [
     "id": "demo-58",
     "path": "MX_十球同步_指尖指腹侧面手掌滑移.mp4",
     "category": "触觉",
-    "duration": 41.0,
+    "duration": 41,
     "size": 6297939,
     "codec_name": "h264",
     "codec_type": "video",
@@ -1253,5 +1253,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-60.mp4?v=noaudio-2575f7e08",
     "poster": "assets/posters/demo-60.jpg"
+  },
+  {
+    "id": "demo-61",
+    "path": "lQbPKHdmhAfA9w0AALAksdm8WHRCawq8lbDntaEB.mp4",
+    "category": "模仿学习",
+    "duration": 15.583333,
+    "size": 2500251,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 544,
+    "height": 960,
+    "title": {
+      "zh": "模仿学习：桌面抓取马克笔",
+      "en": "Imitation learning: tabletop marker grasp"
+    },
+    "caption": {
+      "zh": "在真机桌面上，Revo3 手臂与灵巧手依据学习到的策略接近目标物，调整手指闭合完成马克笔抓取，展示模仿学习驱动的桌面操作。",
+      "en": "On a real desktop, the Revo3 arm and dexterous hand follow a learned policy to approach the target and close their fingers around a marker, demonstrating imitation-learning-driven manipulation."
+    },
+    "tag": {
+      "zh": "真机 · 模仿学习",
+      "en": "Real robot · imitation learning"
+    },
+    "src": "assets/videos/demo-61.mp4?v=imitation-marker-1",
+    "poster": "assets/posters/demo-61.jpg"
   }
 ];
