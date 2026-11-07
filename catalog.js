@@ -1278,5 +1278,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-61.mp4?v=imitation-marker-1",
     "poster": "assets/posters/demo-61.jpg"
+  },
+  {
+    "id": "demo-62",
+    "path": "2026-11/1325005dfd5afd58b87dd1ac6fe3e5dd.mp4",
+    "category": "强化学习",
+    "duration": 68.866667,
+    "size": 2134998,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 640,
+    "height": 480,
+    "title": {
+      "zh": "强化学习策略状态可视化",
+      "en": "RL policy state visualization"
+    },
+    "caption": {
+      "zh": "仿真灵巧手在掌内连续旋转细杆，画面叠加策略运行状态：当前 episode 的累计回报、帧号、并行环境编号与离线渲染进度，便于观察训练过程中策略的连续演化。",
+      "en": "A simulated hand continuously rotates a thin rod in-hand while the overlay reports live policy states: cumulative return, frame index, parallel environment id and offline rendering progress, making the policy’s evolution easy to follow."
+    },
+    "tag": {
+      "zh": "仿真 · 强化学习 · 策略状态",
+      "en": "Simulation · reinforcement learning · policy states"
+    },
+    "src": "assets/videos/demo-62.mp4?v=rl-policy-states-1",
+    "poster": "assets/posters/demo-62.jpg"
   }
 ];
