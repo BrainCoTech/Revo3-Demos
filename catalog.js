@@ -1332,5 +1332,34 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-63.mp4?v=newton-tactile-1",
     "poster": "assets/posters/demo-63.jpg"
+  },
+  {
+    "id": "demo-64",
+    "path": "AgentDex.mp4",
+    "category": "real-to-sim",
+    "categories": [
+      "real-to-sim",
+      "agent"
+    ],
+    "duration": 33.15,
+    "width": 1280,
+    "height": 1800,
+    "size": 18342390,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "AgentDex：真人示教与仿真拼装",
+      "en": "AgentDex: human demonstration and simulated assembly"
+    },
+    "caption": {
+      "zh": "画面上方展示真人拼装 Soma 立方体的示教视频与提取的手部骨架，下方展示 Revo3 右手在 MuJoCo 中抓取、移动和拼合积木。仿真中的初始布局与目标拼装形态由视频重建，上下对照呈现真实示教与仿真操作。",
+      "en": "The upper view shows a human assembling a Soma cube with extracted hand keypoints; the lower view shows a Revo3 right hand grasping, moving and assembling the pieces in MuJoCo. The initial layout and target assembly are reconstructed from the video, placing the real demonstration and simulated manipulation side by side."
+    },
+    "tag": {
+      "zh": "仿真 · 视频示教 · 积木拼装",
+      "en": "Simulation · video demonstration · block assembly"
+    },
+    "src": "assets/videos/demo-64.mp4?v=agentdex-1",
+    "poster": "assets/posters/demo-64.jpg"
   }
 ];
