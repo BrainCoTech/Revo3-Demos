@@ -1303,5 +1303,34 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-62.mp4?v=rl-policy-states-1",
     "poster": "assets/posters/demo-62.jpg"
+  },
+  {
+    "id": "demo-63",
+    "path": "newton-tactile.mp4",
+    "category": "触觉",
+    "categories": [
+      "触觉",
+      "real-to-sim"
+    ],
+    "duration": 8,
+    "width": 1920,
+    "height": 1080,
+    "size": 6468567,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "Newton 指尖触觉仿真：凝胶形变与接触力",
+      "en": "Newton fingertip tactile simulation: gel deformation and contact forces"
+    },
+    "caption": {
+      "zh": "Revo3 右手的五个指尖凝胶与方块接触，展示有限元凝胶的接触形变。画面同步呈现整手视角、食指与中指指腹特写，以及五指接触力读数，便于观察局部形变与受力变化。",
+      "en": "Blocks contact the five fingertip gels of a simulated Revo3 right hand, showing deformation of the finite-element gels. A whole-hand view, close-ups of the index and middle finger pads, and contact-force readings for all five fingers show local deformation and force changes together."
+    },
+    "tag": {
+      "zh": "仿真 · 指尖凝胶 · 接触力",
+      "en": "Simulation · fingertip gels · contact forces"
+    },
+    "src": "assets/videos/demo-63.mp4?v=newton-tactile-1",
+    "poster": "assets/posters/demo-63.jpg"
   }
 ];
