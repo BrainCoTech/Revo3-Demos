@@ -1386,5 +1386,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-65.mp4?v=reveal-1",
     "poster": "assets/posters/demo-65.jpg"
+  },
+  {
+    "id": "demo-66",
+    "path": "nonstop-pear + nonstop-pomegranate + nonstop-mango",
+    "category": "强化学习",
+    "duration": 29.633333,
+    "width": 1280,
+    "height": 720,
+    "size": 6375933,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "人类干预下的稳健抓取",
+      "en": "Robust grasping under human intervention"
+    },
+    "caption": {
+      "zh": "在梨、石榴和芒果的真机抓取任务中，人为干预改变物体的位置与姿态，机器人继续调整抓取动作，展示干扰下的抓取响应。三个任务依次呈现，视频按原速播放。",
+      "en": "Across real-robot grasping tasks with a pear, pomegranate and mango, human intervention changes the objects’ positions and poses while the robot continues adjusting its grasp. The three tasks are shown sequentially at original speed."
+    },
+    "tag": {
+      "zh": "真机 · 强化学习 · 抗干扰抓取",
+      "en": "Real robot · reinforcement learning · robust grasping"
+    },
+    "src": "assets/videos/demo-66.mp4?v=robust-grasp-1",
+    "poster": "assets/posters/demo-66.jpg"
   }
 ];
