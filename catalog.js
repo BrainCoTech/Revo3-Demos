@@ -1361,5 +1361,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-64.mp4?v=agentdex-1",
     "poster": "assets/posters/demo-64.jpg"
+  },
+  {
+    "id": "demo-65",
+    "path": "REVEAL-centered-title-29s-60fps.mp4",
+    "category": "强化学习",
+    "duration": 29,
+    "width": 1600,
+    "height": 900,
+    "size": 15316600,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "REVEAL：多物体掌内姿态调整",
+      "en": "REVEAL: in-hand reorientation across objects"
+    },
+    "caption": {
+      "zh": "仿真中的 Revo3 灵巧手通过手指协同调整物体姿态，将小鸭、音箱等不同形状的物体转向指定朝向。画面以文字标注目标方向，展示多物体掌内操作。",
+      "en": "A simulated Revo3 hand coordinates its fingers to reorient objects of different shapes, including a toy duck and a speaker. On-screen text labels the target orientation for each in-hand manipulation task."
+    },
+    "tag": {
+      "zh": "仿真 · 强化学习 · 掌内操作",
+      "en": "Simulation · reinforcement learning · in-hand manipulation"
+    },
+    "src": "assets/videos/demo-65.mp4?v=reveal-1",
+    "poster": "assets/posters/demo-65.jpg"
   }
 ];
