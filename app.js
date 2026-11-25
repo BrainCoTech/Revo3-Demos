@@ -1,13 +1,13 @@
 (() => {
  const groups=[
  ['all','全部演示','All demos','从动作映射到全手触觉，浏览 10个细分方向的真机、仿真与数据演示。','Browse real-robot, simulation and data demonstrations across ten directions.'],
+ ['agent','Agent (Sys 2)','Agent (Sys 2)','从真人示教视频到仿真任务，展示 Agent 辅助的灵巧操作流程。','Explore Agent-assisted dexterous manipulation workflows, from human demonstration videos to simulated tasks.'],
+ ['模仿学习','模仿学习 (Sys 1)','Imitation Learning (Sys 1)','从桌面抓取到抽屉任务，观察示教驱动的操作与并行仿真回放。','Demonstration-driven manipulation, from tabletop grasps to drawer tasks and parallel simulated rollouts.'],
+ ['强化学习','强化学习 (Sys 0)','RL (Sys 0)','篮球上动态平衡、掌内旋转、手臂协作与双手运动。保留训练过程和不同阶段的演示。','Dynamic balance on a basketball, in-hand rotation, arm–hand coordination and bimanual motion, including work in training.'],
  ['仿真案例','仿真案例','Simulation demos','灵巧狗、双臂双手颠乒乓球、翻花绳、解魔方与钢琴演奏，展示仿真中的多种运动与操作案例。','Explore simulated motion and manipulation through Dexterous Dog, bimanual ball bouncing, cat’s cradle, Rubik’s Cube solving and piano playing.'],
- ['强化学习','强化学习','RL','篮球上动态平衡、掌内旋转、手臂协作与双手运动。保留训练过程和不同阶段的演示。','Dynamic balance on a basketball, in-hand rotation, arm–hand coordination and bimanual motion, including work in training.'],
  ['数据采集','数据采集','Data collection','从真人示教到机器人执行，浏览高效采集多模态操作数据的现场案例。','From human demonstration to robot execution, explore examples of efficient multimodal manipulation data collection.'],
- ['模仿学习','模仿学习','Imitation learning','从桌面抓取到抽屉任务，观察示教驱动的操作与并行仿真回放。','Demonstration-driven manipulation, from tabletop grasps to drawer tasks and parallel simulated rollouts.'],
  ['触觉','触觉','tactile','观察接触位置、指尖形变与全手压力，以及操作过程中的同步数据。','Explore contact locations, fingertip deformation, whole-hand pressure and synchronized manipulation data.'],
  ['real-to-sim','Real-to-sim','Real-to-sim','将真实灵巧手的外形与关节运动带入仿真，展示高保真数字模型。','Bring real dexterous-hand geometry and joint motion into simulation with high-fidelity digital models.'],
- ['agent','Agent','Agent','从真人示教视频到仿真任务，展示 Agent 辅助的灵巧操作流程。','Explore Agent-assisted dexterous manipulation workflows, from human demonstration videos to simulated tasks.'],
  ['retargeting','动作重定向','Retargeting','将手套捕捉到的人手动作映射到 Revo3，展示手指跟随与拇指对指。','Map glove-captured human motion onto Revo3, including finger following and thumb opposition.'],
  ['优化生成','优化生成','Grasp generation','面向不同物体几何形状，展示生成的抓取姿态与接触配置。','Generated grasp poses and contact configurations for a variety of object geometries.'],
  ['Ego数据处理','Ego 数据处理','Ego data','将第一视角的人手操作重建为机器人可回放的手部和双臂动作。','Reconstruct egocentric demonstrations as hand and bimanual robot motion.']
