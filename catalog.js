@@ -1461,5 +1461,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-68.mp4?v=multi-rotation-1",
     "poster": "assets/posters/demo-68.jpg"
+  },
+  {
+    "id": "demo-69",
+    "path": "RevoAgent_4x_60fps_chat.mp4",
+    "category": "agent",
+    "duration": 45.833333,
+    "width": 1920,
+    "height": 1080,
+    "size": 17014416,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "RevoAgent：语言指令驱动的多任务操作",
+      "en": "RevoAgent: language-guided multi-task manipulation"
+    },
+    "caption": {
+      "zh": "通过对话下达操作指令，RevoAgent 将任务拆分为子步骤并调用动作策略，驱动机器人执行灯泡操作、收笔以及苹果和面包相关任务。画面同步展示机器人动作、任务队列与执行状态。视频以 4 倍速播放。",
+      "en": "RevoAgent breaks conversational instructions into subtasks and invokes action policies for light-bulb manipulation, putting a pen away, and tasks involving an apple and bread. The interface shows robot actions, the task queue and execution status together. Shown at 4× speed."
+    },
+    "tag": {
+      "zh": "真机 · Agent · 4 倍速",
+      "en": "Real robot · Agent · 4× speed"
+    },
+    "src": "assets/videos/demo-69.mp4?v=revoagent-1",
+    "poster": "assets/posters/demo-69.jpg"
   }
 ];
