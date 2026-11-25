@@ -1411,5 +1411,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-66.mp4?v=robust-grasp-1",
     "poster": "assets/posters/demo-66.jpg"
+  },
+  {
+    "id": "demo-67",
+    "path": "flexiv-revo3-continuous.mp4",
+    "category": "强化学习",
+    "duration": 98.6,
+    "width": 1280,
+    "height": 720,
+    "size": 9216176,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "多种物体的稳定抓取",
+      "en": "Stable grasping across a variety of objects"
+    },
+    "caption": {
+      "zh": "Flexiv 机械臂搭载 Revo3 灵巧手，连续抓取不同形状的物体，将其提起、转移并放入收纳篮。视频展示多种物体上的抓持与搬运过程，按原速播放。",
+      "en": "A Flexiv arm equipped with a Revo3 hand successively grasps objects of different shapes, lifts and transports them, and places them in a basket. The video shows grasping and transfer across a variety of objects at original speed."
+    },
+    "tag": {
+      "zh": "真机 · 强化学习 · 多物体抓取",
+      "en": "Real robot · reinforcement learning · multi-object grasping"
+    },
+    "src": "assets/videos/demo-67.mp4?v=stable-grasp-1",
+    "poster": "assets/posters/demo-67.jpg"
   }
 ];
