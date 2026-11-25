@@ -1436,5 +1436,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-67.mp4?v=stable-grasp-1",
     "poster": "assets/posters/demo-67.jpg"
+  },
+  {
+    "id": "demo-68",
+    "path": "REVEAL-四视频并排-去黑边.mp4",
+    "category": "强化学习",
+    "duration": 61.333333,
+    "width": 2166,
+    "height": 720,
+    "size": 18711477,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "多物体掌内旋转",
+      "en": "In-hand rotation across multiple objects"
+    },
+    "caption": {
+      "zh": "四路画面并排展示 Revo3 灵巧手在真机上旋转字母方块、骰子、彩球与小鸭。手指交替支撑并调整接触位置，使不同形状的物体在掌内持续改变姿态。各路画面保持原速，较短片段循环播放。",
+      "en": "Four side-by-side views show a real Revo3 hand rotating a lettered cube, a die, a patterned ball and a toy duck. The fingers alternate support and adjust contact points to continuously reorient objects of different shapes in the palm. Each view plays at original speed, with shorter clips looping."
+    },
+    "tag": {
+      "zh": "真机 · 强化学习 · 掌内旋转",
+      "en": "Real robot · reinforcement learning · in-hand rotation"
+    },
+    "src": "assets/videos/demo-68.mp4?v=multi-rotation-1",
+    "poster": "assets/posters/demo-68.jpg"
   }
 ];
