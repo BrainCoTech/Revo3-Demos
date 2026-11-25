@@ -1336,10 +1336,10 @@ window.DEMOS = [
   {
     "id": "demo-64",
     "path": "AgentDex.mp4",
-    "category": "real-to-sim",
+    "category": "agent",
     "categories": [
-      "real-to-sim",
-      "agent"
+      "agent",
+      "real-to-sim"
     ],
     "duration": 33.15,
     "width": 1280,
@@ -1348,19 +1348,19 @@ window.DEMOS = [
     "codec_name": "h264",
     "codec_type": "video",
     "title": {
-      "zh": "AgentDex：真人示教与仿真拼装",
-      "en": "AgentDex: human demonstration and simulated assembly"
+      "zh": "AgentDex：Agentic Real to Sim",
+      "en": "AgentDex: Agentic Real to Sim"
     },
     "caption": {
-      "zh": "画面上方展示真人拼装 Soma 立方体的示教视频与提取的手部骨架，下方展示 Revo3 右手在 MuJoCo 中抓取、移动和拼合积木。仿真中的初始布局与目标拼装形态由视频重建，上下对照呈现真实示教与仿真操作。",
-      "en": "The upper view shows a human assembling a Soma cube with extracted hand keypoints; the lower view shows a Revo3 right hand grasping, moving and assembling the pieces in MuJoCo. The initial layout and target assembly are reconstructed from the video, placing the real demonstration and simulated manipulation side by side."
+      "zh": "Agentic Real to Sim：从真人拼装示教视频中提取手部骨架，重建物体初始布局与目标拼装形态，并在 MuJoCo 中展示 Revo3 灵巧手抓取、移动和拼合 Soma 立方体积木的过程。上下画面对照呈现真实示教与仿真操作。",
+      "en": "Agentic Real to Sim extracts hand keypoints from a human assembly demonstration and reconstructs the initial object layout and target assembly. A Revo3 hand grasps, moves and assembles Soma cube pieces in MuJoCo, with the real demonstration and simulated manipulation shown in stacked views."
     },
     "tag": {
       "zh": "仿真 · 视频示教 · 积木拼装",
       "en": "Simulation · video demonstration · block assembly"
     },
-    "src": "assets/videos/demo-64.mp4?v=agentdex-1",
-    "poster": "assets/posters/demo-64.jpg"
+    "src": "assets/videos/demo-64.mp4?v=agentic-real-to-sim-1",
+    "poster": "assets/posters/demo-64.jpg?v=agentic-real-to-sim-1"
   },
   {
     "id": "demo-65",
