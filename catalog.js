@@ -1486,5 +1486,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-69.mp4?v=revoagent-1",
     "poster": "assets/posters/demo-69.jpg"
+  },
+  {
+    "id": "demo-70",
+    "path": "revobench.mp4",
+    "category": "real-to-sim",
+    "duration": 34,
+    "width": 1920,
+    "height": 1080,
+    "size": 18456494,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "RevoBench：多场景仿真与视觉变化",
+      "en": "RevoBench: simulation scenes and visual variations"
+    },
+    "caption": {
+      "zh": "展示 RevoBench 中的机器人与桌面操作场景，通过环绕视角和多画面对照呈现不同材质、光照与背景下的仿真效果。咖啡机等任务场景以多种视觉配置展开，展示同一类操作环境的外观变化。",
+      "en": "Robot and tabletop manipulation scenes in RevoBench are shown through orbiting views and multi-view comparisons of materials, lighting and backgrounds. Task scenes, including a coffee machine, appear in varied visual configurations to illustrate changes in the appearance of simulated manipulation environments."
+    },
+    "tag": {
+      "zh": "仿真 · 多场景 · 视觉变化",
+      "en": "Simulation · multiple scenes · visual variations"
+    },
+    "src": "assets/videos/demo-70.mp4?v=revobench-demo-1",
+    "poster": "assets/posters/demo-70.jpg"
   }
 ];
