@@ -18,10 +18,13 @@
  const demos=order.map(n=>window.DEMOS.find(d=>d.id===`demo-${String(n).padStart(2,'0')}`));
  const categories=d=>d.categories||[d.category];
  const belongs=(d,category)=>categories(d).includes(category);
+ const dataCollectionRank = new Map([['demo-71', -1], ['demo-55', 1], ['demo-52', 2], ['demo-46', 3]]);
  function selectedDemos(){
   if(selected==='all')return demos;
   const matches=demos.filter(d=>belongs(d,selected));
-  if(selected==='数据采集')matches.sort((a,b)=>Number(b.id==='demo-71')-Number(a.id==='demo-71'));
+  if(selected==='数据采集'){
+   matches.sort((a,b)=>(dataCollectionRank.get(a.id) ?? 0) - (dataCollectionRank.get(b.id) ?? 0));
+  }
   return matches;
  }
  const text=(zh,en)=>lang==='zh'?zh:en;
