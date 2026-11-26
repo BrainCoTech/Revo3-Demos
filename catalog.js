@@ -175,31 +175,6 @@ window.DEMOS = [
     "poster": "assets/posters/demo-08.jpg"
   },
   {
-    "id": "demo-09",
-    "path": "强化学习/lQbPKdNz5IS1jGMAALDhiJlBAAMlLQp1n_HwWbsA.mp4",
-    "category": "强化学习",
-    "duration": 12.0804,
-    "size": 2802604,
-    "codec_name": "h264",
-    "codec_type": "video",
-    "width": 720,
-    "height": 1280,
-    "title": {
-      "zh": "掌内操作与物体姿态显示",
-      "en": "In-hand manipulation and pose display"
-    },
-    "caption": {
-      "zh": "视频先展示真机握持带标记的物体，再展示屏幕中的手物模型与位置、姿态读数。",
-      "en": "The clip moves from a physical hand holding a marked object to an on-screen hand–object model with position and orientation readouts."
-    },
-    "tag": {
-      "zh": "真机与可视化",
-      "en": "Robot & visualization"
-    },
-    "src": "assets/videos/demo-09.mp4?v=compressed-1",
-    "poster": "assets/posters/demo-09.jpg"
-  },
-  {
     "id": "demo-10",
     "path": "强化学习/revo3-RL-sim2real-转方块.MP4",
     "category": "强化学习",
