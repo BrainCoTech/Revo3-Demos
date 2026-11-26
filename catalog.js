@@ -211,7 +211,7 @@ window.DEMOS = [
     "id": "demo-13",
     "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "强化学习/弹钢琴1.mp4",
-    "category": "仿真案例",
+    "category": "real-to-sim",
     "duration": 6.4,
     "size": 4523557,
     "codec_name": "h264",
@@ -449,7 +449,7 @@ window.DEMOS = [
     "id": "demo-24",
     "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "revotron_008_presentation.mp4",
-    "category": "仿真案例",
+    "category": "real-to-sim",
     "duration": 200.426,
     "size": 94000845,
     "codec_name": "h264",
@@ -475,7 +475,7 @@ window.DEMOS = [
     "id": "demo-26",
     "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "revotron_003_presentation.mp4",
-    "category": "仿真案例",
+    "category": "real-to-sim",
     "duration": 193.365,
     "size": 84660619,
     "codec_name": "h264",
@@ -501,7 +501,7 @@ window.DEMOS = [
     "id": "demo-27",
     "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "revotron_007_presentation.mp4",
-    "category": "仿真案例",
+    "category": "real-to-sim",
     "duration": 123.136,
     "size": 57263523,
     "codec_name": "h264",
@@ -533,7 +533,7 @@ window.DEMOS = [
     "codec_type": "video",
     "width": 1920,
     "height": 1080,
-    "category": "仿真案例",
+    "category": "real-to-sim",
     "title": {
       "zh": "Going Up Yonder Improvisation",
       "en": "Going Up Yonder Improvisation"
@@ -639,7 +639,7 @@ window.DEMOS = [
     "width": 3838,
     "height": 2088,
     "title": {
-      "zh": "伟钛视触觉多通道可视化",
+      "zh": "视触觉多通道可视化",
       "en": "Visuotactile visualization"
     },
     "caption": {
@@ -660,7 +660,7 @@ window.DEMOS = [
     "category": "强化学习",
     "categories": [
       "强化学习",
-      "仿真案例"
+      "real-to-sim"
     ],
     "duration": 37.566016,
     "size": 4226104,
@@ -772,7 +772,7 @@ window.DEMOS = [
     "id": "demo-40",
     "addedAt": "2026-10-17T13:05:20+08:00",
     "path": "Revo3_Cats_Cradle.mp4",
-    "category": "仿真案例",
+    "category": "real-to-sim",
     "duration": 18.2,
     "size": 5328482,
     "codec_name": "h264",
@@ -877,7 +877,7 @@ window.DEMOS = [
     "id": "demo-44",
     "addedAt": "2026-10-21T00:30:41+08:00",
     "path": "thumb_grasp_split.mp4",
-    "category": "仿真案例",
+    "category": "real-to-sim",
     "duration": 30,
     "size": 6499959,
     "codec_name": "h264",
@@ -982,7 +982,7 @@ window.DEMOS = [
     "id": "demo-48",
     "addedAt": "2026-10-21T00:44:55+08:00",
     "path": "灵巧狗.mp4",
-    "category": "仿真案例",
+    "category": "real-to-sim",
     "duration": 13.36,
     "size": 3461505,
     "codec_name": "h264",
@@ -1010,10 +1010,6 @@ window.DEMOS = [
     "addedAt": "2026-10-21T00:54:20+08:00",
     "path": "revosim-orbit-60fps.mp4",
     "category": "real-to-sim",
-    "categories": [
-      "real-to-sim",
-      "仿真案例"
-    ],
     "duration": 15,
     "size": 7376629,
     "codec_name": "h264",
@@ -1059,11 +1055,7 @@ window.DEMOS = [
       "en": "Real robot & simulation · URDF · kinematic alignment"
     },
     "src": "assets/videos/demo-50.mp4?v=urdf-alignment-1",
-    "poster": "assets/posters/demo-50.jpg",
-    "categories": [
-      "real-to-sim",
-      "仿真案例"
-    ]
+    "poster": "assets/posters/demo-50.jpg"
   },
   {
     "id": "demo-52",
