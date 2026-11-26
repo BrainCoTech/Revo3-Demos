@@ -14,10 +14,16 @@
  ];
  let lang='zh';try{lang=localStorage.getItem('revo3-language')||'zh'}catch{}if(!['zh','en'].includes(lang))lang='zh';
  let selected='all';const grid=document.querySelector('#demo-grid'),nav=document.querySelector('#categories');
- const order=[36,56,59,55,52,46,45,47,60,15,14,61,2,70,49,50,69,64,44,40,65,68,66,67,35,10,48,7,37,42,43,4,32,38,57,58,63,21,34,5,1,8,9,31,33,62,19,20,41,22,17,23,24,26,27,30,13];
+ const order=[36,56,59,55,52,46,45,47,71,60,15,14,61,2,70,49,50,69,64,44,40,65,68,66,67,35,10,48,7,37,42,43,4,32,38,57,58,63,21,34,5,1,8,9,31,33,62,19,20,41,22,17,23,24,26,27,30,13];
  const demos=order.map(n=>window.DEMOS.find(d=>d.id===`demo-${String(n).padStart(2,'0')}`));
  const categories=d=>d.categories||[d.category];
  const belongs=(d,category)=>categories(d).includes(category);
+ function selectedDemos(){
+  if(selected==='all')return demos;
+  const matches=demos.filter(d=>belongs(d,selected));
+  if(selected==='数据采集')matches.sort((a,b)=>Number(b.id==='demo-71')-Number(a.id==='demo-71'));
+  return matches;
+ }
  const text=(zh,en)=>lang==='zh'?zh:en;
  const duration=d=>`${Math.floor(d/60)}:${String(Math.floor(d%60)).padStart(2,'0')}`;
  function pauseAll(except){document.querySelectorAll('video').forEach(v=>{if(v!==except)v.pause()})}
@@ -53,7 +59,7 @@
   screen.play().catch(()=>{if(player.open&&version===loadVersion)status.textContent=text('点击视频中的播放按钮继续。','Press play in the video to continue.')});
  }
  function play(d,wrap,button){
-  pauseAll();playlist=demos.filter(item=>selected==='all'||belongs(item,selected));returnFocus=button;
+  pauseAll();playlist=selectedDemos();returnFocus=button;
   player.querySelector('.showcase-close').textContent=text('关闭 ✕','Close ✕');
   player.querySelector('.showcase-prev').textContent=text('← 上一段','← Previous');player.querySelector('.showcase-next').textContent=text('下一段 →','Next →');
   player.querySelector('.showcase-controls label span').textContent=text('自动连播 · 循环','Autoplay · Loop');
@@ -82,7 +88,7 @@
   groups.forEach(g=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-pressed',g[0]===selected);b.append(document.createTextNode(g[lang==='zh'?1:2]));const count=document.createElement('small');count.textContent=g[0]==='all'?demos.length:demos.filter(d=>belongs(d,g[0])).length;b.append(count);b.addEventListener('click',()=>{selected=g[0];render();nav.querySelector('[aria-pressed=true]').focus({preventScroll:true})});nav.append(b)});
   const g=groups.find(g=>g[0]===selected);document.querySelector('#section-kicker').textContent=selected==='all'?'THE DEMO COLLECTION':`${String(groups.indexOf(g)).padStart(2,'0')} / REVO3 DEMOS`;
   document.querySelector('#section-title').textContent=g[lang==='zh'?1:2];document.querySelector('#section-description').textContent=g[lang==='zh'?3:4];
-  grid.replaceChildren();demos.filter(d=>selected==='all'||belongs(d,selected)).forEach((d,i)=>{
+  grid.replaceChildren();selectedDemos().forEach((d,i)=>{
    const card=document.createElement('article');card.className='demo';card.id=d.id;
    const wrap=document.createElement('div');wrap.className='video-wrap';const img=document.createElement('img');img.src=d.poster;img.alt=d.title[lang];img.className='poster';img.loading=i<2?'eager':'lazy';wrap.append(img);
    const b=document.createElement('button');b.type='button';b.className='play-button';b.setAttribute('aria-label',text('播放：','Play: ')+d.title[lang]);b.innerHTML='<span class="play-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3l15 9-15 9z"/></svg></span>';b.addEventListener('click',()=>play(d,wrap,b));wrap.append(b);

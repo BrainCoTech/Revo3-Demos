@@ -1482,5 +1482,30 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-70.mp4?v=revobench-demo-1",
     "poster": "assets/posters/demo-70.jpg"
+  },
+  {
+    "id": "demo-71",
+    "path": "6f9b30f73bf04e25d4f307bdc28dd35e_raw.mp4",
+    "category": "数据采集",
+    "duration": 111.566667,
+    "width": 1920,
+    "height": 1118,
+    "size": 41032320,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "RevoData-Infra 双手调酒数据回放",
+      "en": "RevoData-Infra playback of a two-handed cocktail task"
+    },
+    "caption": {
+      "zh": "两只机械手拿起量酒器和摇酒壶，在桌面上配合操作。RevoData-Infra 同步回放一个全景和两个近景，并在同一时间轴上显示机器人状态曲线。",
+      "en": "Two robot hands handle a jigger and a cocktail shaker. RevoData-Infra replays the tabletop view and two close-ups alongside robot state traces on a shared timeline."
+    },
+    "tag": {
+      "zh": "真机 · 三路相机 · 数据回放",
+      "en": "Real robot · three cameras · data playback"
+    },
+    "src": "assets/videos/demo-71.mp4",
+    "poster": "assets/posters/demo-71.jpg"
   }
 ];
