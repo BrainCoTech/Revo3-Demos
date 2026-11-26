@@ -1,6 +1,6 @@
 (() => {
  const groups=[
- ['all','全部演示','All demos','从动作映射到全手触觉，浏览 10个细分方向的真机、仿真与数据演示。','Browse real-robot, simulation and data demonstrations across ten directions.'],
+ ['all','全部演示','All demos','按首次收录日期排列，最新演示在前。','Ordered by date added, newest first.'],
  ['agent','Agent (Sys 2)','Agent (Sys 2)','从真人示教视频到仿真任务，展示 Agent 辅助的灵巧操作流程。','Explore Agent-assisted dexterous manipulation workflows, from human demonstration videos to simulated tasks.'],
  ['模仿学习','模仿学习 (Sys 1)','Imitation Learning (Sys 1)','从桌面抓取到抽屉任务，观察示教驱动的操作与并行仿真回放。','Demonstration-driven manipulation, from tabletop grasps to drawer tasks and parallel simulated rollouts.'],
  ['强化学习','强化学习 (Sys 0)','RL (Sys 0)','掌内旋转、手臂协作与双手运动。保留训练过程和不同阶段的演示。','In-hand rotation, arm–hand coordination and bimanual motion, including work in training.'],
@@ -19,8 +19,26 @@
  const categories=d=>d.categories||[d.category];
  const belongs=(d,category)=>categories(d).includes(category);
  const dataCollectionRank = new Map([['demo-71', -1], ['demo-55', 1], ['demo-52', 2], ['demo-46', 3]]);
+ const chronologicalDemos = [...demos].sort((a,b)=>(b.addedAt || '').localeCompare(a.addedAt || ''));
+ const monthlyFocus = {
+  '2026-11': {
+   zh: '跨物体操作与 Agent', en: 'Multi-object manipulation and agents',
+   detailZh: 'REVEAL 展示不同物体上的掌内旋转，RevoAgent 把语言指令拆成操作步骤。双手调酒的数据回放则把三路视频与机器人状态对齐。',
+   detailEn: 'REVEAL demonstrates in-hand rotation across objects. RevoAgent breaks language instructions into manipulation steps. A cocktail-making replay aligns three camera views with robot state.'
+  },
+  '2026-10': {
+   zh: '仿真对齐与双手示教', en: 'Simulation alignment and bimanual demonstrations',
+   detailZh: 'RevoSim 将手部运动与触觉响应和真机对照。数据采集演示记录了拧瓶盖、叠积木等任务中双手如何配合。',
+   detailEn: 'RevoSim compares hand motion and tactile responses against the physical hand. Recorded demonstrations show how the hands work together to turn a bottle cap and stack blocks.'
+  },
+  '2026-09': {
+   zh: '动作重定向与触觉观测', en: 'Motion retargeting and tactile sensing',
+   detailZh: '手套和第一视角视频用于把人手动作映射到 Revo3。掌内转球与挂杯演示则记录了指尖和手掌在操作中的接触。',
+   detailEn: 'Glove tracking and first-person video map human movements onto Revo3. Ball rotation and cup hanging show how contact changes across the fingers and palm.'
+  }
+ };
  function selectedDemos(){
-  if(selected==='all')return demos;
+  if(selected==='all')return chronologicalDemos;
   const matches=demos.filter(d=>belongs(d,selected));
   if(selected==='数据采集'){
    matches.sort((a,b)=>(dataCollectionRank.get(a.id) ?? 0) - (dataCollectionRank.get(b.id) ?? 0));
@@ -91,14 +109,84 @@
   groups.forEach(g=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-pressed',g[0]===selected);b.append(document.createTextNode(g[lang==='zh'?1:2]));const count=document.createElement('small');count.textContent=g[0]==='all'?demos.length:demos.filter(d=>belongs(d,g[0])).length;b.append(count);b.addEventListener('click',()=>{selected=g[0];render();nav.querySelector('[aria-pressed=true]').focus({preventScroll:true})});nav.append(b)});
   const g=groups.find(g=>g[0]===selected);document.querySelector('#section-kicker').textContent=selected==='all'?'THE DEMO COLLECTION':`${String(groups.indexOf(g)).padStart(2,'0')} / REVO3 DEMOS`;
   document.querySelector('#section-title').textContent=g[lang==='zh'?1:2];document.querySelector('#section-description').textContent=g[lang==='zh'?3:4];
-  grid.replaceChildren();selectedDemos().forEach((d,i)=>{
+  renderCollection();
+ }
+ function demoCard(d,i){
    const card=document.createElement('article');card.className='demo';card.id=d.id;
    const wrap=document.createElement('div');wrap.className='video-wrap';const img=document.createElement('img');img.src=d.poster;img.alt=d.title[lang];img.className='poster';img.loading=i<2?'eager':'lazy';wrap.append(img);
    const b=document.createElement('button');b.type='button';b.className='play-button';b.setAttribute('aria-label',text('播放：','Play: ')+d.title[lang]);b.innerHTML='<span class="play-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3l15 9-15 9z"/></svg></span>';b.addEventListener('click',()=>play(d,wrap,b));wrap.append(b);
    const time=document.createElement('span');time.className='duration';time.textContent=duration(d.duration);wrap.append(time);
    const copy=document.createElement('div');copy.className='demo-copy';const meta=document.createElement('p');meta.className='demo-meta';const labels=categories(d).map(category=>groups.find(g=>g[0]===category)[lang==='zh'?1:2]);meta.textContent=`${labels.join(' · ')} / ${d.tag[lang]}`;
    const title=document.createElement('h3');title.textContent=d.title[lang];const cap=document.createElement('p');cap.className='caption';cap.textContent=d.caption[lang];
-   const links=document.createElement('div');links.className='demo-links';const open=document.createElement('a');open.href=d.src;open.target='_blank';open.rel='noopener';open.textContent=text('打开视频 ↗','Open video ↗');const download=document.createElement('a');download.href=d.src;download.download=d.title[lang]+'.mp4';download.textContent=text('下载视频 ↓','Download video ↓');links.append(open,download);if(d.codeUrl){const code=document.createElement('a');code.href=d.codeUrl;code.target='_blank';code.rel='noopener';code.textContent=text('代码开源 ↗','Source code ↗');links.append(code);}copy.append(meta,title,cap,links);card.append(wrap,copy);grid.append(card);
+   const links=document.createElement('div');links.className='demo-links';const open=document.createElement('a');open.href=d.src;open.target='_blank';open.rel='noopener';open.textContent=text('打开视频 ↗','Open video ↗');const download=document.createElement('a');download.href=d.src;download.download=d.title[lang]+'.mp4';download.textContent=text('下载视频 ↓','Download video ↓');links.append(open,download);if(d.codeUrl){const code=document.createElement('a');code.href=d.codeUrl;code.target='_blank';code.rel='noopener';code.textContent=text('代码开源 ↗','Source code ↗');links.append(code);}if(selected==='all' && d.addedAt){
+    const date=document.createElement('time');
+    date.className='added-date';
+    date.dateTime=d.addedAt.slice(0,10);
+    date.textContent=date.dateTime;
+    copy.append(date);
+   }
+   copy.append(meta,title,cap,links);card.append(wrap,copy);return card;
+ }
+ const timeline=document.querySelector('#timeline');
+ function renderCollection(){
+  const items=selectedDemos();
+  const all=selected==='all';
+  timeline.hidden=!all;
+  timeline.replaceChildren();
+  grid.replaceChildren();
+  grid.classList.toggle('demo-grid',!all);
+  grid.parentElement.classList.toggle('with-timeline',all);
+  if(!all){
+   items.forEach((d,i)=>grid.append(demoCard(d,i)));
+   return;
+  }
+  timeline.setAttribute('aria-label',text('研究时间轴','Research timeline'));
+  const heading=document.createElement('h3');
+  heading.textContent=text('研究时间轴','Research timeline');
+  timeline.append(heading);
+  const monthFormat=new Intl.DateTimeFormat(lang==='zh'?'zh-CN':'en',{month:lang==='zh'?'numeric':'long',timeZone:'Asia/Shanghai'});
+  let lastYear, lastMonth, yearLinks, monthGrid;
+  items.forEach((d,i)=>{
+   const month=d.addedAt?.slice(0,7) || 'undated';
+   if(month!==lastMonth){
+    const year=d.addedAt?.slice(0,4) || '—';
+    if(year!==lastYear){
+     const yearLabel=document.createElement('strong');
+     yearLabel.textContent=year;
+     yearLinks=document.createElement('div');
+     yearLinks.className='timeline-links';
+     timeline.append(yearLabel,yearLinks);
+     lastYear=year;
+    }
+    const monthLabel=d.addedAt?monthFormat.format(new Date(d.addedAt)):text('日期待补','Undated');
+    const focus=monthlyFocus[month];
+    const section=document.createElement('section');
+    section.id='month-'+month;
+    section.className='timeline-month';
+    const link=document.createElement('a');
+    link.href='#'+section.id;
+    link.textContent=monthLabel;
+    if(focus){
+     const topic=document.createElement('span');
+     topic.textContent=focus[lang];
+     link.append(topic);
+    }
+    yearLinks.append(link);
+    const heading=document.createElement('h3');
+    heading.textContent=d.addedAt?text(year+'年'+monthLabel,monthLabel+' '+year):monthLabel;
+    section.append(heading);
+    if(focus){
+     const summary=document.createElement('p');
+     summary.textContent=text(focus.detailZh,focus.detailEn);
+     section.append(summary);
+    }
+    monthGrid=document.createElement('div');
+    monthGrid.className='demo-grid';
+    section.append(monthGrid);
+    grid.append(section);
+    lastMonth=month;
+   }
+   monthGrid.append(demoCard(d,i));
   });
  }
  document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{lang=b.dataset.lang;try{localStorage.setItem('revo3-language',lang)}catch{}render()}));

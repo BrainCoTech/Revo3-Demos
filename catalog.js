@@ -1,6 +1,7 @@
 window.DEMOS = [
   {
     "id": "demo-01",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "Ego数据处理/revo3-phone-native.mp4",
     "category": "Ego数据处理",
     "duration": 12.133333,
@@ -26,6 +27,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-02",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "Ego数据处理/revotron-egodex-structures-teleop-posture-review.mp4",
     "category": "Ego数据处理",
     "duration": 16.933333,
@@ -51,6 +53,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-03",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "retargeting/revo3-manus真机遥操作-快速.MP4",
     "category": "retargeting",
     "duration": 17.205,
@@ -76,6 +79,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-04",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "retargeting/revo3-manus遥操作-对指效果很好.MP4",
     "category": "retargeting",
     "duration": 17.386667,
@@ -101,6 +105,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-05",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "优化生成/grasping.mp4",
     "category": "优化生成",
     "duration": 4.933333,
@@ -126,6 +131,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-07",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "强化学习/RL-2x-nocap.mp4",
     "category": "强化学习",
     "duration": 43.166667,
@@ -151,6 +157,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-08",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "强化学习/lQbPJxZlTZCZXHcAALBhsxU7vYRNsgpmMMHbhOkA.mp4",
     "category": "强化学习",
     "duration": 28.066,
@@ -176,6 +183,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-10",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "强化学习/revo3-RL-sim2real-转方块.MP4",
     "category": "强化学习",
     "duration": 22.222,
@@ -201,6 +209,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-13",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "强化学习/弹钢琴1.mp4",
     "category": "仿真案例",
     "duration": 6.4,
@@ -226,6 +235,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-14",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "模仿学习/revotron-rtc-长程任务.mp4",
     "category": "模仿学习",
     "duration": 23.833333,
@@ -251,6 +261,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-15",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "模仿学习/revotron-两物体泛化位置-RTC.MP4",
     "category": "模仿学习",
     "duration": 45.333333,
@@ -276,6 +287,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-17",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "触觉/hammer_lerobot.mp4",
     "category": "触觉",
     "duration": 15.5,
@@ -301,6 +313,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-19",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "触觉/lQbPJxGuZ1cUls8AALCtVfNcEGwigAoOfyXU2CIA.mp4",
     "category": "触觉",
     "duration": 58.432,
@@ -326,6 +339,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-20",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "触觉/revo3-tactile-RL-转球.mp4",
     "category": "触觉",
     "duration": 12.7187,
@@ -355,6 +369,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-21",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "触觉/revo3-伟钛视触觉-箭头上位机.MP4",
     "category": "触觉",
     "duration": 18.5,
@@ -380,6 +395,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-22",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "触觉/revosim-挂被子仿真.mp4",
     "category": "触觉",
     "duration": 75.9,
@@ -405,6 +421,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-23",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "触觉/revotron-仿真-lerobot.mp4",
     "category": "触觉",
     "duration": 48.066667,
@@ -430,6 +447,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-24",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "revotron_008_presentation.mp4",
     "category": "仿真案例",
     "duration": 200.426,
@@ -455,6 +473,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-26",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "revotron_003_presentation.mp4",
     "category": "仿真案例",
     "duration": 193.365,
@@ -480,6 +499,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-27",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "revotron_007_presentation.mp4",
     "category": "仿真案例",
     "duration": 123.136,
@@ -505,6 +525,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-30",
+    "addedAt": "2026-09-29T01:52:55+08:00",
     "path": "revotron_013_presentation.mp4",
     "duration": 192.32,
     "size": 92396307,
@@ -530,6 +551,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-31",
+    "addedAt": "2026-09-29T02:07:50+08:00",
     "path": "来回抛球.mp4",
     "category": "强化学习",
     "duration": 30.025,
@@ -555,6 +577,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-32",
+    "addedAt": "2026-09-29T02:15:32+08:00",
     "path": "revo3_retargeting.mp4",
     "duration": 15.9,
     "size": 1525283,
@@ -580,6 +603,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-33",
+    "addedAt": "2026-09-29T02:15:32+08:00",
     "path": "revo3-半圈往复转笔.mp4",
     "duration": 18,
     "size": 3686745,
@@ -605,6 +629,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-34",
+    "addedAt": "2026-09-29T02:17:59+08:00",
     "path": "伟钛视触觉可视化.mp4",
     "category": "触觉",
     "duration": 36.4,
@@ -630,6 +655,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-35",
+    "addedAt": "2026-10-06T11:01:31+08:00",
     "path": "/Users/xulixin/Downloads/rubik-solving.mp4",
     "category": "强化学习",
     "categories": [
@@ -659,6 +685,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-36",
+    "addedAt": "2026-10-06T11:06:45+08:00",
     "path": "/Users/xulixin/强脑机器人算法Demo/高效采集数据.mp4",
     "category": "数据采集",
     "categories": [
@@ -687,6 +714,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-37",
+    "addedAt": "2026-10-09T16:38:04+08:00",
     "path": "bionic_silver_gestures_2x_60fps.mp4",
     "category": "real-to-sim",
     "duration": 12,
@@ -712,6 +740,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-38",
+    "addedAt": "2026-10-12T15:15:59+08:00",
     "path": "revosim-demo-60fps.mp4",
     "category": "触觉",
     "duration": 18.95,
@@ -741,6 +770,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-40",
+    "addedAt": "2026-10-17T13:05:20+08:00",
     "path": "Revo3_Cats_Cradle.mp4",
     "category": "仿真案例",
     "duration": 18.2,
@@ -767,6 +797,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-41",
+    "addedAt": "2026-10-17T13:38:48+08:00",
     "path": "tray_lerobot.mp4",
     "category": "触觉",
     "duration": 14.166667,
@@ -792,6 +823,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-42",
+    "addedAt": "2026-10-19T17:15:48+08:00",
     "path": "IMG_2622.mov",
     "category": "retargeting",
     "duration": 15.281933,
@@ -817,6 +849,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-43",
+    "addedAt": "2026-10-19T17:35:07+08:00",
     "path": "IMG_2637.mov",
     "category": "retargeting",
     "duration": 13.380033,
@@ -842,6 +875,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-44",
+    "addedAt": "2026-10-21T00:30:41+08:00",
     "path": "thumb_grasp_split.mp4",
     "category": "仿真案例",
     "duration": 30,
@@ -868,6 +902,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-45",
+    "addedAt": "2026-10-21T00:41:19+08:00",
     "path": "2ba343bad83f591613438015caeea4a2.mp4",
     "category": "数据采集",
     "duration": 18.166667,
@@ -893,6 +928,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-46",
+    "addedAt": "2026-10-21T00:41:19+08:00",
     "path": "657f59b87198edeb82b5ca60238522d6.mp4",
     "category": "数据采集",
     "duration": 22.466667,
@@ -918,6 +954,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-47",
+    "addedAt": "2026-10-21T00:41:19+08:00",
     "path": "6ed8fdf9f1ae8393ee484708a572b7f7.mp4",
     "category": "数据采集",
     "duration": 12.566667,
@@ -943,6 +980,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-48",
+    "addedAt": "2026-10-21T00:44:55+08:00",
     "path": "灵巧狗.mp4",
     "category": "仿真案例",
     "duration": 13.36,
@@ -969,6 +1007,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-49",
+    "addedAt": "2026-10-21T00:54:20+08:00",
     "path": "revosim-orbit-60fps.mp4",
     "category": "real-to-sim",
     "categories": [
@@ -998,6 +1037,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-50",
+    "addedAt": "2026-10-21T01:06:40+08:00",
     "path": "lQbPJxJQSyai5SkAALCEMuHy01xuWQqhhzkMMVwA.mp4",
     "category": "real-to-sim",
     "duration": 19.833333,
@@ -1027,6 +1067,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-52",
+    "addedAt": "2026-10-23T19:36:42+08:00",
     "path": "瓶盖旋紧再旋松-裁剪版.mp4",
     "category": "数据采集",
     "duration": 65.5,
@@ -1052,6 +1093,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-55",
+    "addedAt": "2026-10-23T19:36:42+08:00",
     "path": "长程任务叠积木-裁剪版.mp4",
     "category": "数据采集",
     "duration": 121.1,
@@ -1077,6 +1119,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-56",
+    "addedAt": "2026-10-23T19:41:44+08:00",
     "path": "21f344f761b04ff46a8dcb7b1c1a2c7c.mp4",
     "category": "数据采集",
     "duration": 22.166667,
@@ -1102,6 +1145,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-57",
+    "addedAt": "2026-11-04T01:26:26+08:00",
     "path": "MT_十球同步_指尖指腹侧面手掌滑移.mp4",
     "category": "触觉",
     "duration": 41,
@@ -1127,6 +1171,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-58",
+    "addedAt": "2026-11-04T01:26:26+08:00",
     "path": "MX_十球同步_指尖指腹侧面手掌滑移.mp4",
     "category": "触觉",
     "duration": 41,
@@ -1152,6 +1197,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-59",
+    "addedAt": "2026-11-04T01:28:26+08:00",
     "path": "video_20261103_151128.mp4",
     "category": "数据采集",
     "duration": 17.53495,
@@ -1177,6 +1223,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-60",
+    "addedAt": "2026-11-04T01:30:46+08:00",
     "path": "IMG_2931.mov",
     "category": "模仿学习",
     "duration": 25.57555,
@@ -1202,6 +1249,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-61",
+    "addedAt": "2026-11-05T21:28:31+08:00",
     "path": "lQbPKHdmhAfA9w0AALAksdm8WHRCawq8lbDntaEB.mp4",
     "category": "模仿学习",
     "duration": 15.583333,
@@ -1227,6 +1275,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-62",
+    "addedAt": "2026-11-07T19:48:35+08:00",
     "path": "2026-11/1325005dfd5afd58b87dd1ac6fe3e5dd.mp4",
     "category": "强化学习",
     "duration": 68.866667,
@@ -1252,6 +1301,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-63",
+    "addedAt": "2026-11-13T14:18:41+08:00",
     "path": "newton-tactile.mp4",
     "category": "触觉",
     "categories": [
@@ -1281,6 +1331,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-64",
+    "addedAt": "2026-11-13T14:24:16+08:00",
     "path": "AgentDex.mp4",
     "category": "agent",
     "categories": [
@@ -1310,6 +1361,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-65",
+    "addedAt": "2026-11-25T11:40:14+08:00",
     "path": "REVEAL-centered-title-29s-60fps.mp4",
     "category": "强化学习",
     "duration": 29,
@@ -1335,6 +1387,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-66",
+    "addedAt": "2026-11-25T11:41:42+08:00",
     "path": "nonstop-pear + nonstop-pomegranate + nonstop-mango",
     "category": "强化学习",
     "duration": 29.633333,
@@ -1360,6 +1413,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-67",
+    "addedAt": "2026-11-25T11:43:37+08:00",
     "path": "flexiv-revo3-continuous.mp4",
     "category": "强化学习",
     "duration": 98.6,
@@ -1385,6 +1439,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-68",
+    "addedAt": "2026-11-25T11:49:45+08:00",
     "path": "REVEAL-四视频并排-去黑边.mp4",
     "category": "强化学习",
     "duration": 61.333333,
@@ -1410,6 +1465,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-69",
+    "addedAt": "2026-11-25T11:54:03+08:00",
     "path": "RevoAgent_4x_60fps_chat.mp4",
     "category": "agent",
     "duration": 45.833333,
@@ -1435,6 +1491,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-70",
+    "addedAt": "2026-11-25T11:56:49+08:00",
     "path": "revobench.mp4",
     "category": "real-to-sim",
     "duration": 34,
@@ -1460,6 +1517,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-71",
+    "addedAt": "2026-11-26T23:17:45+08:00",
     "path": "6f9b30f73bf04e25d4f307bdc28dd35e_raw.mp4",
     "category": "数据采集",
     "duration": 111.566667,
