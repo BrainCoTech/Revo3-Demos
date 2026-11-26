@@ -18,7 +18,10 @@
  const demos=order.map(n=>window.DEMOS.find(d=>d.id===`demo-${String(n).padStart(2,'0')}`));
  const categories=d=>d.categories||[d.category];
  const belongs=(d,category)=>categories(d).includes(category);
- const dataCollectionRank = new Map([['demo-71', -1], ['demo-55', 1], ['demo-52', 2], ['demo-46', 3]]);
+ const categoryRanks = {
+  '数据采集': new Map([['demo-71', -1], ['demo-55', 1], ['demo-52', 2], ['demo-46', 3]]),
+  '触觉': new Map([['demo-63', -1]])
+ };
  const chronologicalDemos = [...demos].sort((a,b)=>(b.addedAt || '').localeCompare(a.addedAt || ''));
  const monthlyFocus = {
   '2026-11': {
@@ -40,8 +43,9 @@
  function selectedDemos(){
   if(selected==='all')return chronologicalDemos;
   const matches=demos.filter(d=>belongs(d,selected));
-  if(selected==='数据采集'){
-   matches.sort((a,b)=>(dataCollectionRank.get(a.id) ?? 0) - (dataCollectionRank.get(b.id) ?? 0));
+  const ranks=categoryRanks[selected];
+  if(ranks){
+   matches.sort((a,b)=>(ranks.get(a.id) ?? 0) - (ranks.get(b.id) ?? 0));
   }
   return matches;
  }
