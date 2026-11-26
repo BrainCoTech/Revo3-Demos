@@ -13,13 +13,13 @@
  ];
  let lang='zh';try{lang=localStorage.getItem('revo3-language')||'zh'}catch{}if(!['zh','en'].includes(lang))lang='zh';
  let selected='all';const grid=document.querySelector('#demo-grid'),nav=document.querySelector('#categories');
- const order=[36,56,59,55,52,46,45,47,71,60,15,14,61,2,70,49,50,69,64,44,40,65,68,66,67,35,10,48,7,37,42,43,4,32,38,57,63,21,34,5,1,8,31,33,62,19,20,41,22,17,23,24,26,27,30,13];
+ const order=[36,56,59,55,52,46,45,47,71,60,15,14,61,2,70,49,50,69,64,44,40,65,68,66,67,35,10,48,7,37,42,43,4,32,38,57,63,72,21,34,5,1,8,31,33,62,19,20,41,22,17,23,24,26,27,30,13];
  const demos=order.map(n=>window.DEMOS.find(d=>d.id===`demo-${String(n).padStart(2,'0')}`));
  const categories=d=>d.categories||[d.category];
  const belongs=(d,category)=>categories(d).includes(category);
  const categoryRanks = {
   '数据采集': new Map([['demo-71', -1], ['demo-55', 1], ['demo-52', 2], ['demo-46', 3]]),
-  '触觉': new Map([['demo-63', -1]])
+  '触觉': new Map([['demo-63', -2], ['demo-72', -1]])
  };
  const chronologicalDemos = [...demos].sort((a,b)=>(b.addedAt || '').localeCompare(a.addedAt || ''));
  const monthlyFocus = {

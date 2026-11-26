@@ -1506,5 +1506,31 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-71.mp4",
     "poster": "assets/posters/demo-71.jpg"
+  },
+  {
+    "id": "demo-72",
+    "addedAt": "2026-11-27T02:44:15+08:00",
+    "path": "锤子完整轨迹_同步回放.mp4",
+    "category": "触觉",
+    "duration": 23.383333,
+    "width": 1920,
+    "height": 1336,
+    "size": 11674330,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "锤子完整轨迹同步回放",
+      "en": "Full hammer trajectory replay"
+    },
+    "caption": {
+      "zh": "全景、头部和左右腕部视角同步回放锤子操作。沿同一时间轴可以查看十指视触觉图像、MT 压力、指尖六维力与力矩，以及 56 个关节的运动曲线。",
+      "en": "Four synchronized views show the hammer task from the scene, head and both wrists. The same timeline links visuotactile images for all ten fingers, MT pressure, fingertip force and torque readings, and motion traces for 56 joints."
+    },
+    "tag": {
+      "zh": "仿真 · 十指视触觉 · 轨迹回放",
+      "en": "Simulation · ten-finger tactile sensing · trajectory replay"
+    },
+    "src": "assets/videos/demo-72.mp4",
+    "poster": "assets/posters/demo-72.jpg"
   }
 ];
