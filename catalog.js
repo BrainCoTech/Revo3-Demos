@@ -1558,5 +1558,31 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-73.mp4",
     "poster": "assets/posters/demo-73.jpg"
+  },
+  {
+    "id": "demo-74",
+    "addedAt": "2026-11-25",
+    "path": "机械臂接骰子-柔和转场版.mp4",
+    "category": "强化学习",
+    "duration": 8.35,
+    "size": 15325826,
+    "width": 1080,
+    "height": 1920,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "强化学习真机抛球",
+      "en": "Real-robot throwing with reinforcement learning"
+    },
+    "caption": {
+      "zh": "机械臂带动灵巧手接住人抛来的黄色骰子，随后挥臂松手，将骰子投向前方的篮筐。",
+      "en": "The robot hand catches a yellow die tossed by a person. The arm then swings forward and the fingers open to throw the die toward the basket."
+    },
+    "tag": {
+      "zh": "真机 · 接球与投掷",
+      "en": "Real robot · catching and throwing"
+    },
+    "src": "assets/videos/demo-74.mp4",
+    "poster": "assets/posters/demo-74.jpg"
   }
 ];
