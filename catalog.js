@@ -551,7 +551,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-31",
-    "addedAt": "2026-05-19",
+    "addedAt": "2026-05-20",
     "path": "来回抛球.mp4",
     "category": "强化学习",
     "duration": 30.025,
