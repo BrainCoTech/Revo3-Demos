@@ -23,6 +23,16 @@
  };
  const chronologicalDemos = [...demos].sort((a,b)=>(b.addedAt || '').localeCompare(a.addedAt || ''));
  const monthlyFocus = {
+  '2026-05': {
+   zh: '双手抛接', en: 'Bimanual ball passing',
+   detailZh: '在仿真中，一只手抛出小球，另一只手调整接球位置并合拢手指，再将球抛回。',
+   detailEn: 'In simulation, one hand tosses the ball while the other moves into position, closes its fingers to catch it and tosses it back.'
+  },
+  '2026-08': {
+   zh: '掌内旋转', en: 'In-hand rotation',
+   detailZh: '真机通过调整手指与圆柱体的接触位置，在保持抓握的同时转动物体。',
+   detailEn: 'The physical hand shifts its finger contacts to rotate a cylinder while maintaining its grasp.'
+  },
   '2026-11': {
    zh: '跨物体操作与 Agent', en: 'Multi-object manipulation and agents',
    detailZh: 'REVEAL 展示不同物体上的掌内旋转，RevoAgent 把语言指令拆成操作步骤。双手调酒的数据回放则把三路视频与机器人状态对齐。',

@@ -131,7 +131,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-07",
-    "addedAt": "2026-09-29T01:52:55+08:00",
+    "addedAt": "2026-09-02",
     "path": "强化学习/RL-2x-nocap.mp4",
     "category": "强化学习",
     "duration": 43.166667,
@@ -157,7 +157,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-08",
-    "addedAt": "2026-09-29T01:52:55+08:00",
+    "addedAt": "2026-08-30",
     "path": "强化学习/lQbPJxZlTZCZXHcAALBhsxU7vYRNsgpmMMHbhOkA.mp4",
     "category": "强化学习",
     "duration": 28.066,
@@ -551,7 +551,7 @@ window.DEMOS = [
   },
   {
     "id": "demo-31",
-    "addedAt": "2026-09-29T02:07:50+08:00",
+    "addedAt": "2026-05-19",
     "path": "来回抛球.mp4",
     "category": "强化学习",
     "duration": 30.025,
