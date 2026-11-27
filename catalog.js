@@ -1532,5 +1532,31 @@ window.DEMOS = [
     },
     "src": "assets/videos/demo-72.mp4",
     "poster": "assets/posters/demo-72.jpg"
+  },
+  {
+    "id": "demo-73",
+    "addedAt": "2026-11-17",
+    "path": "d8293b373f036e085dce893687928351_raw.mp4",
+    "category": "强化学习",
+    "duration": 12.3,
+    "size": 4212484,
+    "width": 960,
+    "height": 720,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "title": {
+      "zh": "强化学习仿真抛接球",
+      "en": "Ball catching and throwing with reinforcement learning"
+    },
+    "caption": {
+      "zh": "在仿真中，Flexiv 机械臂带动 Revo3 灵巧手接住飞来的绿色小球，再将球投向目标筐。画面同步显示接球、释放和入筐状态。",
+      "en": "In simulation, a Flexiv arm positions the Revo3 hand to catch an incoming green ball and throw it toward a bin. The overlay tracks the catch, release and entry into the bin."
+    },
+    "tag": {
+      "zh": "仿真 · 接球与投掷",
+      "en": "Simulation · catching and throwing"
+    },
+    "src": "assets/videos/demo-73.mp4",
+    "poster": "assets/posters/demo-73.jpg"
   }
 ];
